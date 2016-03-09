@@ -17,7 +17,7 @@ import colima.ruta.com.rutascolima.utils.Utils;
 public class IncluyenteA {
 
     public static void IncluyenteA(SQLiteDatabase db,int RutaIA){
-
+        //pruebin
         ContentValues contentValues = new ContentValues();
 
         contentValues.put(Ruta.COLUMN_LATITUD, 19.273870795578);
