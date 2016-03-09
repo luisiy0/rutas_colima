@@ -1,0 +1,371 @@
+package colima.ruta.com.rutascolima.db.rutas.colima;
+
+/**
+ * Created by luisfer on 02/01/2016.
+ */
+
+import android.content.ContentValues;
+import android.database.Cursor;
+import android.database.sqlite.SQLiteDatabase;
+
+import colima.ruta.com.rutascolima.db.DBContract;
+import colima.ruta.com.rutascolima.db.DBContract.Camion;
+import colima.ruta.com.rutascolima.db.DBContract.Ruta;
+import colima.ruta.com.rutascolima.utils.Utils;
+
+public class Sanjoaquin {
+
+    public static void Sanjoaquin(SQLiteDatabase db, int Sanjoaquin){
+
+
+        ContentValues contentValues = new ContentValues();
+
+        contentValues.put(Ruta.COLUMN_LATITUD, 19.276200104426);
+        contentValues.put(Ruta.COLUMN_LONGITUD, -103.64576518536);
+        contentValues.put(Ruta.COLUMN_FK_CAMIONID, Sanjoaquin);
+        db.insert(Ruta.TABLE_NAME, null, contentValues);
+
+        contentValues = new ContentValues(); contentValues.put(Ruta.COLUMN_LATITUD, 19.276339355536); contentValues.put(Ruta.COLUMN_LONGITUD, -103.64689707756); contentValues.put(Ruta.COLUMN_FK_CAMIONID, Sanjoaquin); db.insert(Ruta.TABLE_NAME, null, contentValues);
+        contentValues = new ContentValues(); contentValues.put(Ruta.COLUMN_LATITUD, 19.276488733868); contentValues.put(Ruta.COLUMN_LONGITUD, -103.64762127399); contentValues.put(Ruta.COLUMN_FK_CAMIONID, Sanjoaquin); db.insert(Ruta.TABLE_NAME, null, contentValues);
+        contentValues = new ContentValues(); contentValues.put(Ruta.COLUMN_LATITUD, 19.276602666403); contentValues.put(Ruta.COLUMN_LONGITUD, -103.64884436131); contentValues.put(Ruta.COLUMN_FK_CAMIONID, Sanjoaquin); db.insert(Ruta.TABLE_NAME, null, contentValues);
+        contentValues = new ContentValues(); contentValues.put(Ruta.COLUMN_LATITUD, 19.276876104162); contentValues.put(Ruta.COLUMN_LONGITUD, -103.6505100131); contentValues.put(Ruta.COLUMN_FK_CAMIONID, Sanjoaquin); db.insert(Ruta.TABLE_NAME, null, contentValues);
+        contentValues = new ContentValues(); contentValues.put(Ruta.COLUMN_LATITUD, 19.277078650357); contentValues.put(Ruta.COLUMN_LONGITUD, -103.65223735571); contentValues.put(Ruta.COLUMN_FK_CAMIONID, Sanjoaquin); db.insert(Ruta.TABLE_NAME, null, contentValues);
+        contentValues = new ContentValues(); contentValues.put(Ruta.COLUMN_LATITUD, 19.277172327888); contentValues.put(Ruta.COLUMN_LONGITUD, -103.65305006504); contentValues.put(Ruta.COLUMN_FK_CAMIONID, Sanjoaquin); db.insert(Ruta.TABLE_NAME, null, contentValues);
+        contentValues = new ContentValues(); contentValues.put(Ruta.COLUMN_LATITUD, 19.277329300926); contentValues.put(Ruta.COLUMN_LONGITUD, -103.65414708853); contentValues.put(Ruta.COLUMN_FK_CAMIONID, Sanjoaquin); db.insert(Ruta.TABLE_NAME, null, contentValues);
+        contentValues = new ContentValues(); contentValues.put(Ruta.COLUMN_LATITUD, 19.277319173638); contentValues.put(Ruta.COLUMN_LONGITUD, -103.65432679653); contentValues.put(Ruta.COLUMN_FK_CAMIONID, Sanjoaquin); db.insert(Ruta.TABLE_NAME, null, contentValues);
+        contentValues = new ContentValues(); contentValues.put(Ruta.COLUMN_LATITUD, 19.277273600833); contentValues.put(Ruta.COLUMN_LONGITUD, -103.65451455116); contentValues.put(Ruta.COLUMN_FK_CAMIONID, Sanjoaquin); db.insert(Ruta.TABLE_NAME, null, contentValues);
+        contentValues = new ContentValues(); contentValues.put(Ruta.COLUMN_LATITUD, 19.277103968614); contentValues.put(Ruta.COLUMN_LONGITUD, -103.65475326777); contentValues.put(Ruta.COLUMN_FK_CAMIONID, Sanjoaquin); db.insert(Ruta.TABLE_NAME, null, contentValues);
+        contentValues = new ContentValues(); contentValues.put(Ruta.COLUMN_LATITUD, 19.276126681065); contentValues.put(Ruta.COLUMN_LONGITUD, -103.65611314774); contentValues.put(Ruta.COLUMN_FK_CAMIONID, Sanjoaquin); db.insert(Ruta.TABLE_NAME, null, contentValues);
+        contentValues = new ContentValues(); contentValues.put(Ruta.COLUMN_LATITUD, 19.27589628341); contentValues.put(Ruta.COLUMN_LONGITUD, -103.6565181613); contentValues.put(Ruta.COLUMN_FK_CAMIONID, Sanjoaquin); db.insert(Ruta.TABLE_NAME, null, contentValues);
+        contentValues = new ContentValues(); contentValues.put(Ruta.COLUMN_LATITUD, 19.275858305743); contentValues.put(Ruta.COLUMN_LONGITUD, -103.65666031837); contentValues.put(Ruta.COLUMN_FK_CAMIONID, Sanjoaquin); db.insert(Ruta.TABLE_NAME, null, contentValues);
+        contentValues = new ContentValues(); contentValues.put(Ruta.COLUMN_LATITUD, 19.27578488223); contentValues.put(Ruta.COLUMN_LONGITUD, -103.65716993809); contentValues.put(Ruta.COLUMN_FK_CAMIONID, Sanjoaquin); db.insert(Ruta.TABLE_NAME, null, contentValues);
+        contentValues = new ContentValues(); contentValues.put(Ruta.COLUMN_LATITUD, 19.275767159308); contentValues.put(Ruta.COLUMN_LONGITUD, -103.65759372711); contentValues.put(Ruta.COLUMN_FK_CAMIONID, Sanjoaquin); db.insert(Ruta.TABLE_NAME, null, contentValues);
+        contentValues = new ContentValues(); contentValues.put(Ruta.COLUMN_LATITUD, 19.275782350384); contentValues.put(Ruta.COLUMN_LONGITUD, -103.65858882666); contentValues.put(Ruta.COLUMN_FK_CAMIONID, Sanjoaquin); db.insert(Ruta.TABLE_NAME, null, contentValues);
+        contentValues = new ContentValues(); contentValues.put(Ruta.COLUMN_LATITUD, 19.275764627462); contentValues.put(Ruta.COLUMN_LONGITUD, -103.65869343281); contentValues.put(Ruta.COLUMN_FK_CAMIONID, Sanjoaquin); db.insert(Ruta.TABLE_NAME, null, contentValues);
+        contentValues = new ContentValues(); contentValues.put(Ruta.COLUMN_LATITUD, 19.275668417279); contentValues.put(Ruta.COLUMN_LONGITUD, -103.65891069174); contentValues.put(Ruta.COLUMN_FK_CAMIONID, Sanjoaquin); db.insert(Ruta.TABLE_NAME, null, contentValues);
+        contentValues = new ContentValues(); contentValues.put(Ruta.COLUMN_LATITUD, 19.2753367449); contentValues.put(Ruta.COLUMN_LONGITUD, -103.65920841694); contentValues.put(Ruta.COLUMN_FK_CAMIONID, Sanjoaquin); db.insert(Ruta.TABLE_NAME, null, contentValues);
+        contentValues = new ContentValues(); contentValues.put(Ruta.COLUMN_LATITUD, 19.274675929989); contentValues.put(Ruta.COLUMN_LONGITUD, -103.65980386734); contentValues.put(Ruta.COLUMN_FK_CAMIONID, Sanjoaquin); db.insert(Ruta.TABLE_NAME, null, contentValues);
+        contentValues = new ContentValues(); contentValues.put(Ruta.COLUMN_LATITUD, 19.274551868655); contentValues.put(Ruta.COLUMN_LONGITUD, -103.66008281708); contentValues.put(Ruta.COLUMN_FK_CAMIONID, Sanjoaquin); db.insert(Ruta.TABLE_NAME, null, contentValues);
+        contentValues = new ContentValues(); contentValues.put(Ruta.COLUMN_LATITUD, 19.274718971654); contentValues.put(Ruta.COLUMN_LONGITUD, -103.66043418646); contentValues.put(Ruta.COLUMN_FK_CAMIONID, Sanjoaquin); db.insert(Ruta.TABLE_NAME, null, contentValues);
+        contentValues = new ContentValues(); contentValues.put(Ruta.COLUMN_LATITUD, 19.274898733782); contentValues.put(Ruta.COLUMN_LONGITUD, -103.66052538157); contentValues.put(Ruta.COLUMN_FK_CAMIONID, Sanjoaquin); db.insert(Ruta.TABLE_NAME, null, contentValues);
+        contentValues = new ContentValues(); contentValues.put(Ruta.COLUMN_LATITUD, 19.275372190835); contentValues.put(Ruta.COLUMN_LONGITUD, -103.66051733494); contentValues.put(Ruta.COLUMN_FK_CAMIONID, Sanjoaquin); db.insert(Ruta.TABLE_NAME, null, contentValues);
+        contentValues = new ContentValues(); contentValues.put(Ruta.COLUMN_LATITUD, 19.275711458683); contentValues.put(Ruta.COLUMN_LONGITUD, -103.66088211536); contentValues.put(Ruta.COLUMN_FK_CAMIONID, Sanjoaquin); db.insert(Ruta.TABLE_NAME, null, contentValues);
+        contentValues = new ContentValues(); contentValues.put(Ruta.COLUMN_LATITUD, 19.277683755622); contentValues.put(Ruta.COLUMN_LONGITUD, -103.66296619177); contentValues.put(Ruta.COLUMN_FK_CAMIONID, Sanjoaquin); db.insert(Ruta.TABLE_NAME, null, contentValues);
+        contentValues = new ContentValues(); contentValues.put(Ruta.COLUMN_LATITUD, 19.276982440946); contentValues.put(Ruta.COLUMN_LONGITUD, -103.66358041763); contentValues.put(Ruta.COLUMN_FK_CAMIONID, Sanjoaquin); db.insert(Ruta.TABLE_NAME, null, contentValues);
+        contentValues = new ContentValues(); contentValues.put(Ruta.COLUMN_LATITUD, 19.273777116159); contentValues.put(Ruta.COLUMN_LONGITUD, -103.66653084755); contentValues.put(Ruta.COLUMN_FK_CAMIONID, Sanjoaquin); db.insert(Ruta.TABLE_NAME, null, contentValues);
+        contentValues = new ContentValues(); contentValues.put(Ruta.COLUMN_LATITUD, 19.273427716776); contentValues.put(Ruta.COLUMN_LONGITUD, -103.66693854332); contentValues.put(Ruta.COLUMN_FK_CAMIONID, Sanjoaquin); db.insert(Ruta.TABLE_NAME, null, contentValues);
+        contentValues = new ContentValues(); contentValues.put(Ruta.COLUMN_LATITUD, 19.273280867537); contentValues.put(Ruta.COLUMN_LONGITUD, -103.66717457771); contentValues.put(Ruta.COLUMN_FK_CAMIONID, Sanjoaquin); db.insert(Ruta.TABLE_NAME, null, contentValues);
+        contentValues = new ContentValues(); contentValues.put(Ruta.COLUMN_LATITUD, 19.273123890619); contentValues.put(Ruta.COLUMN_LONGITUD, -103.6674374342); contentValues.put(Ruta.COLUMN_FK_CAMIONID, Sanjoaquin); db.insert(Ruta.TABLE_NAME, null, contentValues);
+        contentValues = new ContentValues(); contentValues.put(Ruta.COLUMN_LATITUD, 19.272607384861); contentValues.put(Ruta.COLUMN_LONGITUD, -103.66862565279); contentValues.put(Ruta.COLUMN_FK_CAMIONID, Sanjoaquin); db.insert(Ruta.TABLE_NAME, null, contentValues);
+        contentValues = new ContentValues(); contentValues.put(Ruta.COLUMN_LATITUD, 19.271925037748); contentValues.put(Ruta.COLUMN_LONGITUD, -103.67004454136); contentValues.put(Ruta.COLUMN_FK_CAMIONID, Sanjoaquin); db.insert(Ruta.TABLE_NAME, null, contentValues);
+        contentValues = new ContentValues(); contentValues.put(Ruta.COLUMN_LATITUD, 19.271614879029); contentValues.put(Ruta.COLUMN_LONGITUD, -103.67096185684); contentValues.put(Ruta.COLUMN_FK_CAMIONID, Sanjoaquin); db.insert(Ruta.TABLE_NAME, null, contentValues);
+        contentValues = new ContentValues(); contentValues.put(Ruta.COLUMN_LATITUD, 19.270997091752); contentValues.put(Ruta.COLUMN_LONGITUD, -103.67161631584); contentValues.put(Ruta.COLUMN_FK_CAMIONID, Sanjoaquin); db.insert(Ruta.TABLE_NAME, null, contentValues);
+        contentValues = new ContentValues(); contentValues.put(Ruta.COLUMN_LATITUD, 19.270348918991); contentValues.put(Ruta.COLUMN_LONGITUD, -103.67267310619); contentValues.put(Ruta.COLUMN_FK_CAMIONID, Sanjoaquin); db.insert(Ruta.TABLE_NAME, null, contentValues);
+        contentValues = new ContentValues(); contentValues.put(Ruta.COLUMN_LATITUD, 19.269639977096); contentValues.put(Ruta.COLUMN_LONGITUD, -103.67392301559); contentValues.put(Ruta.COLUMN_FK_CAMIONID, Sanjoaquin); db.insert(Ruta.TABLE_NAME, null, contentValues);
+        contentValues = new ContentValues(); contentValues.put(Ruta.COLUMN_LATITUD, 19.267421981939); contentValues.put(Ruta.COLUMN_LONGITUD, -103.67842376232); contentValues.put(Ruta.COLUMN_FK_CAMIONID, Sanjoaquin); db.insert(Ruta.TABLE_NAME, null, contentValues);
+        contentValues = new ContentValues(); contentValues.put(Ruta.COLUMN_LATITUD, 19.266895330277); contentValues.put(Ruta.COLUMN_LONGITUD, -103.67933571339); contentValues.put(Ruta.COLUMN_FK_CAMIONID, Sanjoaquin); db.insert(Ruta.TABLE_NAME, null, contentValues);
+        contentValues = new ContentValues(); contentValues.put(Ruta.COLUMN_LATITUD, 19.266449700627); contentValues.put(Ruta.COLUMN_LONGITUD, -103.68002772331); contentValues.put(Ruta.COLUMN_FK_CAMIONID, Sanjoaquin); db.insert(Ruta.TABLE_NAME, null, contentValues);
+        contentValues = new ContentValues(); contentValues.put(Ruta.COLUMN_LATITUD, 19.265654653809); contentValues.put(Ruta.COLUMN_LONGITUD, -103.68097186089); contentValues.put(Ruta.COLUMN_FK_CAMIONID, Sanjoaquin); db.insert(Ruta.TABLE_NAME, null, contentValues);
+        contentValues = new ContentValues(); contentValues.put(Ruta.COLUMN_LATITUD, 19.26509761234); contentValues.put(Ruta.COLUMN_LONGITUD, -103.68152976036); contentValues.put(Ruta.COLUMN_FK_CAMIONID, Sanjoaquin); db.insert(Ruta.TABLE_NAME, null, contentValues);
+        contentValues = new ContentValues(); contentValues.put(Ruta.COLUMN_LATITUD, 19.263811345718); contentValues.put(Ruta.COLUMN_LONGITUD, -103.68265628815); contentValues.put(Ruta.COLUMN_FK_CAMIONID, Sanjoaquin); db.insert(Ruta.TABLE_NAME, null, contentValues);
+        contentValues = new ContentValues(); contentValues.put(Ruta.COLUMN_LATITUD, 19.263613847193); contentValues.put(Ruta.COLUMN_LONGITUD, -103.6828494072); contentValues.put(Ruta.COLUMN_FK_CAMIONID, Sanjoaquin); db.insert(Ruta.TABLE_NAME, null, contentValues);
+        contentValues = new ContentValues(); contentValues.put(Ruta.COLUMN_LATITUD, 19.263396092133); contentValues.put(Ruta.COLUMN_LONGITUD, -103.68314981461); contentValues.put(Ruta.COLUMN_FK_CAMIONID, Sanjoaquin); db.insert(Ruta.TABLE_NAME, null, contentValues);
+        contentValues = new ContentValues(); contentValues.put(Ruta.COLUMN_LATITUD, 19.262813722529); contentValues.put(Ruta.COLUMN_LONGITUD, -103.68373990059); contentValues.put(Ruta.COLUMN_FK_CAMIONID, Sanjoaquin); db.insert(Ruta.TABLE_NAME, null, contentValues);
+        contentValues = new ContentValues(); contentValues.put(Ruta.COLUMN_LATITUD, 19.261157755919); contentValues.put(Ruta.COLUMN_LONGITUD, -103.68612706661); contentValues.put(Ruta.COLUMN_FK_CAMIONID, Sanjoaquin); db.insert(Ruta.TABLE_NAME, null, contentValues);
+        contentValues = new ContentValues(); contentValues.put(Ruta.COLUMN_LATITUD, 19.259258691052); contentValues.put(Ruta.COLUMN_LONGITUD, -103.68893533945); contentValues.put(Ruta.COLUMN_FK_CAMIONID, Sanjoaquin); db.insert(Ruta.TABLE_NAME, null, contentValues);
+        contentValues = new ContentValues(); contentValues.put(Ruta.COLUMN_LATITUD, 19.259040930208); contentValues.put(Ruta.COLUMN_LONGITUD, -103.68934571743); contentValues.put(Ruta.COLUMN_FK_CAMIONID, Sanjoaquin); db.insert(Ruta.TABLE_NAME, null, contentValues);
+        contentValues = new ContentValues(); contentValues.put(Ruta.COLUMN_LATITUD, 19.258987756005); contentValues.put(Ruta.COLUMN_LONGITUD, -103.68955224752); contentValues.put(Ruta.COLUMN_FK_CAMIONID, Sanjoaquin); db.insert(Ruta.TABLE_NAME, null, contentValues);
+        contentValues = new ContentValues(); contentValues.put(Ruta.COLUMN_LATITUD, 19.258818104861); contentValues.put(Ruta.COLUMN_LONGITUD, -103.68970513344); contentValues.put(Ruta.COLUMN_FK_CAMIONID, Sanjoaquin); db.insert(Ruta.TABLE_NAME, null, contentValues);
+        contentValues = new ContentValues(); contentValues.put(Ruta.COLUMN_LATITUD, 19.258711756291); contentValues.put(Ruta.COLUMN_LONGITUD, -103.68966758251); contentValues.put(Ruta.COLUMN_FK_CAMIONID, Sanjoaquin); db.insert(Ruta.TABLE_NAME, null, contentValues);
+        contentValues = new ContentValues(); contentValues.put(Ruta.COLUMN_LATITUD, 19.258623132431); contentValues.put(Ruta.COLUMN_LONGITUD, -103.68956565857); contentValues.put(Ruta.COLUMN_FK_CAMIONID, Sanjoaquin); db.insert(Ruta.TABLE_NAME, null, contentValues);
+        contentValues = new ContentValues(); contentValues.put(Ruta.COLUMN_LATITUD, 19.258428159772); contentValues.put(Ruta.COLUMN_LONGITUD, -103.68947178125); contentValues.put(Ruta.COLUMN_FK_CAMIONID, Sanjoaquin); db.insert(Ruta.TABLE_NAME, null, contentValues);
+        contentValues = new ContentValues(); contentValues.put(Ruta.COLUMN_LATITUD, 19.255374401888); contentValues.put(Ruta.COLUMN_LONGITUD, -103.68724286556); contentValues.put(Ruta.COLUMN_FK_CAMIONID, Sanjoaquin); db.insert(Ruta.TABLE_NAME, null, contentValues);
+        contentValues = new ContentValues(); contentValues.put(Ruta.COLUMN_LATITUD, 19.25523006864); contentValues.put(Ruta.COLUMN_LONGITUD, -103.68725895882); contentValues.put(Ruta.COLUMN_FK_CAMIONID, Sanjoaquin); db.insert(Ruta.TABLE_NAME, null, contentValues);
+        contentValues = new ContentValues(); contentValues.put(Ruta.COLUMN_LATITUD, 19.255123717745); contentValues.put(Ruta.COLUMN_LONGITUD, -103.6873421073); contentValues.put(Ruta.COLUMN_FK_CAMIONID, Sanjoaquin); db.insert(Ruta.TABLE_NAME, null, contentValues);
+        contentValues = new ContentValues(); contentValues.put(Ruta.COLUMN_LATITUD, 19.253880420022); contentValues.put(Ruta.COLUMN_LONGITUD, -103.68900507689); contentValues.put(Ruta.COLUMN_FK_CAMIONID, Sanjoaquin); db.insert(Ruta.TABLE_NAME, null, contentValues);
+        contentValues = new ContentValues(); contentValues.put(Ruta.COLUMN_LATITUD, 19.255303501361); contentValues.put(Ruta.COLUMN_LONGITUD, -103.69009137154); contentValues.put(Ruta.COLUMN_FK_CAMIONID, Sanjoaquin); db.insert(Ruta.TABLE_NAME, null, contentValues);
+        contentValues = new ContentValues(); contentValues.put(Ruta.COLUMN_LATITUD, 19.257253254679); contentValues.put(Ruta.COLUMN_LONGITUD, -103.691598773); contentValues.put(Ruta.COLUMN_FK_CAMIONID, Sanjoaquin); db.insert(Ruta.TABLE_NAME, null, contentValues);
+        contentValues = new ContentValues(); contentValues.put(Ruta.COLUMN_LATITUD, 19.258478802043); contentValues.put(Ruta.COLUMN_LONGITUD, -103.68974268436); contentValues.put(Ruta.COLUMN_FK_CAMIONID, Sanjoaquin); db.insert(Ruta.TABLE_NAME, null, contentValues);
+        contentValues = new ContentValues(); contentValues.put(Ruta.COLUMN_LATITUD, 19.258625664543); contentValues.put(Ruta.COLUMN_LONGITUD, -103.68961662054); contentValues.put(Ruta.COLUMN_FK_CAMIONID, Sanjoaquin); db.insert(Ruta.TABLE_NAME, null, contentValues);
+        contentValues = new ContentValues(); contentValues.put(Ruta.COLUMN_LATITUD, 19.258643389318); contentValues.put(Ruta.COLUMN_LONGITUD, -103.68944495916); contentValues.put(Ruta.COLUMN_FK_CAMIONID, Sanjoaquin); db.insert(Ruta.TABLE_NAME, null, contentValues);
+        contentValues = new ContentValues(); contentValues.put(Ruta.COLUMN_LATITUD, 19.258686435193); contentValues.put(Ruta.COLUMN_LONGITUD, -103.68933230639); contentValues.put(Ruta.COLUMN_FK_CAMIONID, Sanjoaquin); db.insert(Ruta.TABLE_NAME, null, contentValues);
+        contentValues = new ContentValues(); contentValues.put(Ruta.COLUMN_LATITUD, 19.258769994802); contentValues.put(Ruta.COLUMN_LONGITUD, -103.68924915791); contentValues.put(Ruta.COLUMN_FK_CAMIONID, Sanjoaquin); db.insert(Ruta.TABLE_NAME, null, contentValues);
+        contentValues = new ContentValues(); contentValues.put(Ruta.COLUMN_LATITUD, 19.258899132294); contentValues.put(Ruta.COLUMN_LONGITUD, -103.68920624256); contentValues.put(Ruta.COLUMN_FK_CAMIONID, Sanjoaquin); db.insert(Ruta.TABLE_NAME, null, contentValues);
+        contentValues = new ContentValues(); contentValues.put(Ruta.COLUMN_LATITUD, 19.259028269686); contentValues.put(Ruta.COLUMN_LONGITUD, -103.68934571743); contentValues.put(Ruta.COLUMN_FK_CAMIONID, Sanjoaquin); db.insert(Ruta.TABLE_NAME, null, contentValues);
+        contentValues = new ContentValues(); contentValues.put(Ruta.COLUMN_LATITUD, 19.25916247118); contentValues.put(Ruta.COLUMN_LONGITUD, -103.68946909904); contentValues.put(Ruta.COLUMN_FK_CAMIONID, Sanjoaquin); db.insert(Ruta.TABLE_NAME, null, contentValues);
+        contentValues = new ContentValues(); contentValues.put(Ruta.COLUMN_LATITUD, 19.259668890925); contentValues.put(Ruta.COLUMN_LONGITUD, -103.68996798992); contentValues.put(Ruta.COLUMN_FK_CAMIONID, Sanjoaquin); db.insert(Ruta.TABLE_NAME, null, contentValues);
+        contentValues = new ContentValues(); contentValues.put(Ruta.COLUMN_LATITUD, 19.260425985528); contentValues.put(Ruta.COLUMN_LONGITUD, -103.690944314); contentValues.put(Ruta.COLUMN_FK_CAMIONID, Sanjoaquin); db.insert(Ruta.TABLE_NAME, null, contentValues);
+        contentValues = new ContentValues(); contentValues.put(Ruta.COLUMN_LATITUD, 19.264251918492); contentValues.put(Ruta.COLUMN_LONGITUD, -103.69548261166); contentValues.put(Ruta.COLUMN_FK_CAMIONID, Sanjoaquin); db.insert(Ruta.TABLE_NAME, null, contentValues);
+        contentValues = new ContentValues(); contentValues.put(Ruta.COLUMN_LATITUD, 19.265117868427); contentValues.put(Ruta.COLUMN_LONGITUD, -103.69656085968); contentValues.put(Ruta.COLUMN_FK_CAMIONID, Sanjoaquin); db.insert(Ruta.TABLE_NAME, null, contentValues);
+        contentValues = new ContentValues(); contentValues.put(Ruta.COLUMN_LATITUD, 19.265512861615); contentValues.put(Ruta.COLUMN_LONGITUD, -103.69717240334); contentValues.put(Ruta.COLUMN_FK_CAMIONID, Sanjoaquin); db.insert(Ruta.TABLE_NAME, null, contentValues);
+        contentValues = new ContentValues(); contentValues.put(Ruta.COLUMN_LATITUD, 19.266505404399); contentValues.put(Ruta.COLUMN_LONGITUD, -103.69915187359); contentValues.put(Ruta.COLUMN_FK_CAMIONID, Sanjoaquin); db.insert(Ruta.TABLE_NAME, null, contentValues);
+        contentValues = new ContentValues(); contentValues.put(Ruta.COLUMN_LATITUD, 19.266913054158); contentValues.put(Ruta.COLUMN_LONGITUD, -103.70003163815); contentValues.put(Ruta.COLUMN_FK_CAMIONID, Sanjoaquin); db.insert(Ruta.TABLE_NAME, null, contentValues);
+        contentValues = new ContentValues(); contentValues.put(Ruta.COLUMN_LATITUD, 19.267718222755); contentValues.put(Ruta.COLUMN_LONGITUD, -103.70163559914); contentValues.put(Ruta.COLUMN_FK_CAMIONID, Sanjoaquin); db.insert(Ruta.TABLE_NAME, null, contentValues);
+        contentValues = new ContentValues(); contentValues.put(Ruta.COLUMN_LATITUD, 19.26886773333); contentValues.put(Ruta.COLUMN_LONGITUD, -103.70396375656); contentValues.put(Ruta.COLUMN_FK_CAMIONID, Sanjoaquin); db.insert(Ruta.TABLE_NAME, null, contentValues);
+        contentValues = new ContentValues(); contentValues.put(Ruta.COLUMN_LATITUD, 19.268895584808); contentValues.put(Ruta.COLUMN_LONGITUD, -103.70430439711); contentValues.put(Ruta.COLUMN_FK_CAMIONID, Sanjoaquin); db.insert(Ruta.TABLE_NAME, null, contentValues);
+        contentValues = new ContentValues(); contentValues.put(Ruta.COLUMN_LATITUD, 19.269437421707); contentValues.put(Ruta.COLUMN_LONGITUD, -103.70541751385); contentValues.put(Ruta.COLUMN_FK_CAMIONID, Sanjoaquin); db.insert(Ruta.TABLE_NAME, null, contentValues);
+        contentValues = new ContentValues(); contentValues.put(Ruta.COLUMN_LATITUD, 19.271726283045); contentValues.put(Ruta.COLUMN_LONGITUD, -103.71004164219); contentValues.put(Ruta.COLUMN_FK_CAMIONID, Sanjoaquin); db.insert(Ruta.TABLE_NAME, null, contentValues);
+        contentValues = new ContentValues(); contentValues.put(Ruta.COLUMN_LATITUD, 19.273453035596); contentValues.put(Ruta.COLUMN_LONGITUD, -103.71349096298); contentValues.put(Ruta.COLUMN_FK_CAMIONID, Sanjoaquin); db.insert(Ruta.TABLE_NAME, null, contentValues);
+        contentValues = new ContentValues(); contentValues.put(Ruta.COLUMN_LATITUD, 19.274901265641); contentValues.put(Ruta.COLUMN_LONGITUD, -103.71656477451); contentValues.put(Ruta.COLUMN_FK_CAMIONID, Sanjoaquin); db.insert(Ruta.TABLE_NAME, null, contentValues);
+        contentValues = new ContentValues(); contentValues.put(Ruta.COLUMN_LATITUD, 19.277190050658); contentValues.put(Ruta.COLUMN_LONGITUD, -103.72118353844); contentValues.put(Ruta.COLUMN_FK_CAMIONID, Sanjoaquin); db.insert(Ruta.TABLE_NAME, null, contentValues);
+        contentValues = new ContentValues(); contentValues.put(Ruta.COLUMN_LATITUD, 19.279002826717); contentValues.put(Ruta.COLUMN_LONGITUD, -103.72484207153); contentValues.put(Ruta.COLUMN_FK_CAMIONID, Sanjoaquin); db.insert(Ruta.TABLE_NAME, null, contentValues);
+        contentValues = new ContentValues(); contentValues.put(Ruta.COLUMN_LATITUD, 19.280815582714); contentValues.put(Ruta.COLUMN_LONGITUD, -103.7286400795); contentValues.put(Ruta.COLUMN_FK_CAMIONID, Sanjoaquin); db.insert(Ruta.TABLE_NAME, null, contentValues);
+        contentValues = new ContentValues(); contentValues.put(Ruta.COLUMN_LATITUD, 19.282081461877); contentValues.put(Ruta.COLUMN_LONGITUD, -103.73120963573); contentValues.put(Ruta.COLUMN_FK_CAMIONID, Sanjoaquin); db.insert(Ruta.TABLE_NAME, null, contentValues);
+        contentValues = new ContentValues(); contentValues.put(Ruta.COLUMN_LATITUD, 19.282294128616); contentValues.put(Ruta.COLUMN_LONGITUD, -103.73161196709); contentValues.put(Ruta.COLUMN_FK_CAMIONID, Sanjoaquin); db.insert(Ruta.TABLE_NAME, null, contentValues);
+        contentValues = new ContentValues(); contentValues.put(Ruta.COLUMN_LATITUD, 19.28242071583); contentValues.put(Ruta.COLUMN_LONGITUD, -103.73211085796); contentValues.put(Ruta.COLUMN_FK_CAMIONID, Sanjoaquin); db.insert(Ruta.TABLE_NAME, null, contentValues);
+        contentValues = new ContentValues(); contentValues.put(Ruta.COLUMN_LATITUD, 19.282476414173); contentValues.put(Ruta.COLUMN_LONGITUD, -103.73251318932); contentValues.put(Ruta.COLUMN_FK_CAMIONID, Sanjoaquin); db.insert(Ruta.TABLE_NAME, null, contentValues);
+        contentValues = new ContentValues(); contentValues.put(Ruta.COLUMN_LATITUD, 19.282587810802); contentValues.put(Ruta.COLUMN_LONGITUD, -103.73282432556); contentValues.put(Ruta.COLUMN_FK_CAMIONID, Sanjoaquin); db.insert(Ruta.TABLE_NAME, null, contentValues);
+        contentValues = new ContentValues(); contentValues.put(Ruta.COLUMN_LATITUD, 19.282861238571); contentValues.put(Ruta.COLUMN_LONGITUD, -103.73341977596); contentValues.put(Ruta.COLUMN_FK_CAMIONID, Sanjoaquin); db.insert(Ruta.TABLE_NAME, null, contentValues);
+        contentValues = new ContentValues(); contentValues.put(Ruta.COLUMN_LATITUD, 19.284243560859); contentValues.put(Ruta.COLUMN_LONGITUD, -103.73634338379); contentValues.put(Ruta.COLUMN_FK_CAMIONID, Sanjoaquin); db.insert(Ruta.TABLE_NAME, null, contentValues);
+        contentValues = new ContentValues(); contentValues.put(Ruta.COLUMN_LATITUD, 19.284800537237); contentValues.put(Ruta.COLUMN_LONGITUD, -103.73747527599); contentValues.put(Ruta.COLUMN_FK_CAMIONID, Sanjoaquin); db.insert(Ruta.TABLE_NAME, null, contentValues);
+        contentValues = new ContentValues(); contentValues.put(Ruta.COLUMN_LATITUD, 19.284992946819); contentValues.put(Ruta.COLUMN_LONGITUD, -103.73802781105); contentValues.put(Ruta.COLUMN_FK_CAMIONID, Sanjoaquin); db.insert(Ruta.TABLE_NAME, null, contentValues);
+        contentValues = new ContentValues(); contentValues.put(Ruta.COLUMN_LATITUD, 19.285185356174); contentValues.put(Ruta.COLUMN_LONGITUD, -103.73891830444); contentValues.put(Ruta.COLUMN_FK_CAMIONID, Sanjoaquin); db.insert(Ruta.TABLE_NAME, null, contentValues);
+        contentValues = new ContentValues(); contentValues.put(Ruta.COLUMN_LATITUD, 19.285246116976); contentValues.put(Ruta.COLUMN_LONGITUD, -103.73943328857); contentValues.put(Ruta.COLUMN_FK_CAMIONID, Sanjoaquin); db.insert(Ruta.TABLE_NAME, null, contentValues);
+        contentValues = new ContentValues(); contentValues.put(Ruta.COLUMN_LATITUD, 19.285230926778); contentValues.put(Ruta.COLUMN_LONGITUD, -103.74021112919); contentValues.put(Ruta.COLUMN_FK_CAMIONID, Sanjoaquin); db.insert(Ruta.TABLE_NAME, null, contentValues);
+        contentValues = new ContentValues(); contentValues.put(Ruta.COLUMN_LATITUD, 19.28512459535); contentValues.put(Ruta.COLUMN_LONGITUD, -103.74089241028); contentValues.put(Ruta.COLUMN_FK_CAMIONID, Sanjoaquin); db.insert(Ruta.TABLE_NAME, null, contentValues);
+        contentValues = new ContentValues(); contentValues.put(Ruta.COLUMN_LATITUD, 19.284689142113); contentValues.put(Ruta.COLUMN_LONGITUD, -103.74237298965); contentValues.put(Ruta.COLUMN_FK_CAMIONID, Sanjoaquin); db.insert(Ruta.TABLE_NAME, null, contentValues);
+        contentValues = new ContentValues(); contentValues.put(Ruta.COLUMN_LATITUD, 19.284116975054); contentValues.put(Ruta.COLUMN_LONGITUD, -103.74416470528); contentValues.put(Ruta.COLUMN_FK_CAMIONID, Sanjoaquin); db.insert(Ruta.TABLE_NAME, null, contentValues);
+        contentValues = new ContentValues(); contentValues.put(Ruta.COLUMN_LATITUD, 19.28419798998); contentValues.put(Ruta.COLUMN_LONGITUD, -103.74435514212); contentValues.put(Ruta.COLUMN_FK_CAMIONID, Sanjoaquin); db.insert(Ruta.TABLE_NAME, null, contentValues);
+        contentValues = new ContentValues(); contentValues.put(Ruta.COLUMN_LATITUD, 19.284078999293); contentValues.put(Ruta.COLUMN_LONGITUD, -103.74453216791); contentValues.put(Ruta.COLUMN_FK_CAMIONID, Sanjoaquin); db.insert(Ruta.TABLE_NAME, null, contentValues);
+        contentValues = new ContentValues(); contentValues.put(Ruta.COLUMN_LATITUD, 19.283884056918); contentValues.put(Ruta.COLUMN_LONGITUD, -103.74450534582); contentValues.put(Ruta.COLUMN_FK_CAMIONID, Sanjoaquin); db.insert(Ruta.TABLE_NAME, null, contentValues);
+        contentValues = new ContentValues(); contentValues.put(Ruta.COLUMN_LATITUD, 19.283790383226); contentValues.put(Ruta.COLUMN_LONGITUD, -103.74432295561); contentValues.put(Ruta.COLUMN_FK_CAMIONID, Sanjoaquin); db.insert(Ruta.TABLE_NAME, null, contentValues);
+        contentValues = new ContentValues(); contentValues.put(Ruta.COLUMN_LATITUD, 19.283534679093); contentValues.put(Ruta.COLUMN_LONGITUD, -103.74420762062); contentValues.put(Ruta.COLUMN_FK_CAMIONID, Sanjoaquin); db.insert(Ruta.TABLE_NAME, null, contentValues);
+        contentValues = new ContentValues(); contentValues.put(Ruta.COLUMN_LATITUD, 19.282828325994); contentValues.put(Ruta.COLUMN_LONGITUD, -103.74385625124); contentValues.put(Ruta.COLUMN_FK_CAMIONID, Sanjoaquin); db.insert(Ruta.TABLE_NAME, null, contentValues);
+        contentValues = new ContentValues(); contentValues.put(Ruta.COLUMN_LATITUD, 19.282190327028); contentValues.put(Ruta.COLUMN_LONGITUD, -103.74355584383); contentValues.put(Ruta.COLUMN_FK_CAMIONID, Sanjoaquin); db.insert(Ruta.TABLE_NAME, null, contentValues);
+        contentValues = new ContentValues(); contentValues.put(Ruta.COLUMN_LATITUD, 19.27719764613); contentValues.put(Ruta.COLUMN_LONGITUD, -103.74127060175); contentValues.put(Ruta.COLUMN_FK_CAMIONID, Sanjoaquin); db.insert(Ruta.TABLE_NAME, null, contentValues);
+        contentValues = new ContentValues(); contentValues.put(Ruta.COLUMN_LATITUD, 19.275225343339); contentValues.put(Ruta.COLUMN_LONGITUD, -103.74034523964); contentValues.put(Ruta.COLUMN_FK_CAMIONID, Sanjoaquin); db.insert(Ruta.TABLE_NAME, null, contentValues);
+        contentValues = new ContentValues(); contentValues.put(Ruta.COLUMN_LATITUD, 19.273979666184); contentValues.put(Ruta.COLUMN_LONGITUD, -103.73985439539); contentValues.put(Ruta.COLUMN_FK_CAMIONID, Sanjoaquin); db.insert(Ruta.TABLE_NAME, null, contentValues);
+        contentValues = new ContentValues(); contentValues.put(Ruta.COLUMN_LATITUD, 19.273848008697); contentValues.put(Ruta.COLUMN_LONGITUD, -103.73988389969); contentValues.put(Ruta.COLUMN_FK_CAMIONID, Sanjoaquin); db.insert(Ruta.TABLE_NAME, null, contentValues);
+        contentValues = new ContentValues(); contentValues.put(Ruta.COLUMN_LATITUD, 19.273703691712); contentValues.put(Ruta.COLUMN_LONGITUD, -103.73984366655); contentValues.put(Ruta.COLUMN_FK_CAMIONID, Sanjoaquin); db.insert(Ruta.TABLE_NAME, null, contentValues);
+        contentValues = new ContentValues(); contentValues.put(Ruta.COLUMN_LATITUD, 19.273622671596); contentValues.put(Ruta.COLUMN_LONGITUD, -103.73963713646); contentValues.put(Ruta.COLUMN_FK_CAMIONID, Sanjoaquin); db.insert(Ruta.TABLE_NAME, null, contentValues);
+        contentValues = new ContentValues(); contentValues.put(Ruta.COLUMN_LATITUD, 19.271944027038); contentValues.put(Ruta.COLUMN_LONGITUD, -103.73885124922); contentValues.put(Ruta.COLUMN_FK_CAMIONID, Sanjoaquin); db.insert(Ruta.TABLE_NAME, null, contentValues);
+        contentValues = new ContentValues(); contentValues.put(Ruta.COLUMN_LATITUD, 19.270827453035); contentValues.put(Ruta.COLUMN_LONGITUD, -103.73841673136); contentValues.put(Ruta.COLUMN_FK_CAMIONID, Sanjoaquin); db.insert(Ruta.TABLE_NAME, null, contentValues);
+        contentValues = new ContentValues(); contentValues.put(Ruta.COLUMN_LATITUD, 19.27035145092); contentValues.put(Ruta.COLUMN_LONGITUD, -103.73829334974); contentValues.put(Ruta.COLUMN_FK_CAMIONID, Sanjoaquin); db.insert(Ruta.TABLE_NAME, null, contentValues);
+        contentValues = new ContentValues(); contentValues.put(Ruta.COLUMN_LATITUD, 19.269888107108); contentValues.put(Ruta.COLUMN_LONGITUD, -103.73821020126); contentValues.put(Ruta.COLUMN_FK_CAMIONID, Sanjoaquin); db.insert(Ruta.TABLE_NAME, null, contentValues);
+        contentValues = new ContentValues(); contentValues.put(Ruta.COLUMN_LATITUD, 19.268705688275); contentValues.put(Ruta.COLUMN_LONGITUD, -103.73821020126); contentValues.put(Ruta.COLUMN_FK_CAMIONID, Sanjoaquin); db.insert(Ruta.TABLE_NAME, null, contentValues);
+        contentValues = new ContentValues(); contentValues.put(Ruta.COLUMN_LATITUD, 19.267604284043); contentValues.put(Ruta.COLUMN_LONGITUD, -103.73845696449); contentValues.put(Ruta.COLUMN_FK_CAMIONID, Sanjoaquin); db.insert(Ruta.TABLE_NAME, null, contentValues);
+        contentValues = new ContentValues(); contentValues.put(Ruta.COLUMN_LATITUD, 19.266274993217); contentValues.put(Ruta.COLUMN_LONGITUD, -103.73912215233); contentValues.put(Ruta.COLUMN_FK_CAMIONID, Sanjoaquin); db.insert(Ruta.TABLE_NAME, null, contentValues);
+        contentValues = new ContentValues(); contentValues.put(Ruta.COLUMN_LATITUD, 19.26478870671); contentValues.put(Ruta.COLUMN_LONGITUD, -103.73991072178); contentValues.put(Ruta.COLUMN_FK_CAMIONID, Sanjoaquin); db.insert(Ruta.TABLE_NAME, null, contentValues);
+        contentValues = new ContentValues(); contentValues.put(Ruta.COLUMN_LATITUD, 19.25915234277); contentValues.put(Ruta.COLUMN_LONGITUD, -103.74284505844); contentValues.put(Ruta.COLUMN_FK_CAMIONID, Sanjoaquin); db.insert(Ruta.TABLE_NAME, null, contentValues);
+        contentValues = new ContentValues(); contentValues.put(Ruta.COLUMN_LATITUD, 19.257582431523); contentValues.put(Ruta.COLUMN_LONGITUD, -103.74362826347); contentValues.put(Ruta.COLUMN_FK_CAMIONID, Sanjoaquin); db.insert(Ruta.TABLE_NAME, null, contentValues);
+        contentValues = new ContentValues(); contentValues.put(Ruta.COLUMN_LATITUD, 19.254665395241); contentValues.put(Ruta.COLUMN_LONGITUD, -103.74454021454); contentValues.put(Ruta.COLUMN_FK_CAMIONID, Sanjoaquin); db.insert(Ruta.TABLE_NAME, null, contentValues);
+        contentValues = new ContentValues(); contentValues.put(Ruta.COLUMN_LATITUD, 19.250846835319); contentValues.put(Ruta.COLUMN_LONGITUD, -103.74579548836); contentValues.put(Ruta.COLUMN_FK_CAMIONID, Sanjoaquin); db.insert(Ruta.TABLE_NAME, null, contentValues);
+        contentValues = new ContentValues(); contentValues.put(Ruta.COLUMN_LATITUD, 19.249449037846); contentValues.put(Ruta.COLUMN_LONGITUD, -103.74623000622); contentValues.put(Ruta.COLUMN_FK_CAMIONID, Sanjoaquin); db.insert(Ruta.TABLE_NAME, null, contentValues);
+        contentValues = new ContentValues(); contentValues.put(Ruta.COLUMN_LATITUD, 19.247924614709); contentValues.put(Ruta.COLUMN_LONGITUD, -103.74684154987); contentValues.put(Ruta.COLUMN_FK_CAMIONID, Sanjoaquin); db.insert(Ruta.TABLE_NAME, null, contentValues);
+        contentValues = new ContentValues(); contentValues.put(Ruta.COLUMN_LATITUD, 19.2465673091); contentValues.put(Ruta.COLUMN_LONGITUD, -103.74743700027); contentValues.put(Ruta.COLUMN_FK_CAMIONID, Sanjoaquin); db.insert(Ruta.TABLE_NAME, null, contentValues);
+        contentValues = new ContentValues(); contentValues.put(Ruta.COLUMN_LATITUD, 19.246050719687); contentValues.put(Ruta.COLUMN_LONGITUD, -103.74761402607); contentValues.put(Ruta.COLUMN_FK_CAMIONID, Sanjoaquin); db.insert(Ruta.TABLE_NAME, null, contentValues);
+        contentValues = new ContentValues(); contentValues.put(Ruta.COLUMN_LATITUD, 19.244394583843); contentValues.put(Ruta.COLUMN_LONGITUD, -103.74832749367); contentValues.put(Ruta.COLUMN_FK_CAMIONID, Sanjoaquin); db.insert(Ruta.TABLE_NAME, null, contentValues);
+        contentValues = new ContentValues(); contentValues.put(Ruta.COLUMN_LATITUD, 19.244202126605); contentValues.put(Ruta.COLUMN_LONGITUD, -103.74836504459); contentValues.put(Ruta.COLUMN_FK_CAMIONID, Sanjoaquin); db.insert(Ruta.TABLE_NAME, null, contentValues);
+        contentValues = new ContentValues(); contentValues.put(Ruta.COLUMN_LATITUD, 19.244323678571); contentValues.put(Ruta.COLUMN_LONGITUD, -103.74755501747); contentValues.put(Ruta.COLUMN_FK_CAMIONID, Sanjoaquin); db.insert(Ruta.TABLE_NAME, null, contentValues);
+        contentValues = new ContentValues(); contentValues.put(Ruta.COLUMN_LATITUD, 19.244430036467); contentValues.put(Ruta.COLUMN_LONGITUD, -103.74657869339); contentValues.put(Ruta.COLUMN_FK_CAMIONID, Sanjoaquin); db.insert(Ruta.TABLE_NAME, null, contentValues);
+        contentValues = new ContentValues(); contentValues.put(Ruta.COLUMN_LATITUD, 19.244490812376); contentValues.put(Ruta.COLUMN_LONGITUD, -103.74587059021); contentValues.put(Ruta.COLUMN_FK_CAMIONID, Sanjoaquin); db.insert(Ruta.TABLE_NAME, null, contentValues);
+        contentValues = new ContentValues(); contentValues.put(Ruta.COLUMN_LATITUD, 19.244430036467); contentValues.put(Ruta.COLUMN_LONGITUD, -103.74419689178); contentValues.put(Ruta.COLUMN_FK_CAMIONID, Sanjoaquin); db.insert(Ruta.TABLE_NAME, null, contentValues);
+        contentValues = new ContentValues(); contentValues.put(Ruta.COLUMN_LATITUD, 19.244333807897); contentValues.put(Ruta.COLUMN_LONGITUD, -103.74319374561); contentValues.put(Ruta.COLUMN_FK_CAMIONID, Sanjoaquin); db.insert(Ruta.TABLE_NAME, null, contentValues);
+        contentValues = new ContentValues(); contentValues.put(Ruta.COLUMN_LATITUD, 19.244252773269); contentValues.put(Ruta.COLUMN_LONGITUD, -103.74290406704); contentValues.put(Ruta.COLUMN_FK_CAMIONID, Sanjoaquin); db.insert(Ruta.TABLE_NAME, null, contentValues);
+        contentValues = new ContentValues(); contentValues.put(Ruta.COLUMN_LATITUD, 19.244161609263); contentValues.put(Ruta.COLUMN_LONGITUD, -103.74234616756); contentValues.put(Ruta.COLUMN_FK_CAMIONID, Sanjoaquin); db.insert(Ruta.TABLE_NAME, null, contentValues);
+        contentValues = new ContentValues(); contentValues.put(Ruta.COLUMN_LATITUD, 19.244036572579); contentValues.put(Ruta.COLUMN_LONGITUD, -103.74161180565); contentValues.put(Ruta.COLUMN_FK_CAMIONID, Sanjoaquin); db.insert(Ruta.TABLE_NAME, null, contentValues);
+        contentValues = new ContentValues(); contentValues.put(Ruta.COLUMN_LATITUD, 19.244090703891); contentValues.put(Ruta.COLUMN_LONGITUD, -103.74114990234); contentValues.put(Ruta.COLUMN_FK_CAMIONID, Sanjoaquin); db.insert(Ruta.TABLE_NAME, null, contentValues);
+        contentValues = new ContentValues(); contentValues.put(Ruta.COLUMN_LATITUD, 19.244065380536); contentValues.put(Ruta.COLUMN_LONGITUD, -103.74068856239); contentValues.put(Ruta.COLUMN_FK_CAMIONID, Sanjoaquin); db.insert(Ruta.TABLE_NAME, null, contentValues);
+        contentValues = new ContentValues(); contentValues.put(Ruta.COLUMN_LATITUD, 19.244027395497); contentValues.put(Ruta.COLUMN_LONGITUD, -103.74052226543); contentValues.put(Ruta.COLUMN_FK_CAMIONID, Sanjoaquin); db.insert(Ruta.TABLE_NAME, null, contentValues);
+        contentValues = new ContentValues(); contentValues.put(Ruta.COLUMN_LATITUD, 19.244032460169); contentValues.put(Ruta.COLUMN_LONGITUD, -103.74021112919); contentValues.put(Ruta.COLUMN_FK_CAMIONID, Sanjoaquin); db.insert(Ruta.TABLE_NAME, null, contentValues);
+        contentValues = new ContentValues(); contentValues.put(Ruta.COLUMN_LATITUD, 19.243969151753); contentValues.put(Ruta.COLUMN_LONGITUD, -103.73874127865); contentValues.put(Ruta.COLUMN_FK_CAMIONID, Sanjoaquin); db.insert(Ruta.TABLE_NAME, null, contentValues);
+        contentValues = new ContentValues(); contentValues.put(Ruta.COLUMN_LATITUD, 19.244174270934); contentValues.put(Ruta.COLUMN_LONGITUD, -103.73873859644); contentValues.put(Ruta.COLUMN_FK_CAMIONID, Sanjoaquin); db.insert(Ruta.TABLE_NAME, null, contentValues);
+        contentValues = new ContentValues(); contentValues.put(Ruta.COLUMN_LATITUD, 19.244262902599); contentValues.put(Ruta.COLUMN_LONGITUD, -103.74102652073); contentValues.put(Ruta.COLUMN_FK_CAMIONID, Sanjoaquin); db.insert(Ruta.TABLE_NAME, null, contentValues);
+        contentValues = new ContentValues(); contentValues.put(Ruta.COLUMN_LATITUD, 19.244356598879); contentValues.put(Ruta.COLUMN_LONGITUD, -103.74244809151); contentValues.put(Ruta.COLUMN_FK_CAMIONID, Sanjoaquin); db.insert(Ruta.TABLE_NAME, null, contentValues);
+        contentValues = new ContentValues(); contentValues.put(Ruta.COLUMN_LATITUD, 19.244465489083); contentValues.put(Ruta.COLUMN_LONGITUD, -103.7438455224); contentValues.put(Ruta.COLUMN_FK_CAMIONID, Sanjoaquin); db.insert(Ruta.TABLE_NAME, null, contentValues);
+        contentValues = new ContentValues(); contentValues.put(Ruta.COLUMN_LATITUD, 19.244597170164); contentValues.put(Ruta.COLUMN_LONGITUD, -103.74594032764); contentValues.put(Ruta.COLUMN_FK_CAMIONID, Sanjoaquin); db.insert(Ruta.TABLE_NAME, null, contentValues);
+        contentValues = new ContentValues(); contentValues.put(Ruta.COLUMN_LATITUD, 19.244402180834); contentValues.put(Ruta.COLUMN_LONGITUD, -103.74747723341); contentValues.put(Ruta.COLUMN_FK_CAMIONID, Sanjoaquin); db.insert(Ruta.TABLE_NAME, null, contentValues);
+        contentValues = new ContentValues(); contentValues.put(Ruta.COLUMN_LATITUD, 19.244417374816); contentValues.put(Ruta.COLUMN_LONGITUD, -103.74769717455); contentValues.put(Ruta.COLUMN_FK_CAMIONID, Sanjoaquin); db.insert(Ruta.TABLE_NAME, null, contentValues);
+        contentValues = new ContentValues(); contentValues.put(Ruta.COLUMN_LATITUD, 19.244561717576); contentValues.put(Ruta.COLUMN_LONGITUD, -103.74787420034); contentValues.put(Ruta.COLUMN_FK_CAMIONID, Sanjoaquin); db.insert(Ruta.TABLE_NAME, null, contentValues);
+        contentValues = new ContentValues(); contentValues.put(Ruta.COLUMN_LATITUD, 19.244690866253); contentValues.put(Ruta.COLUMN_LONGITUD, -103.7479788065); contentValues.put(Ruta.COLUMN_FK_CAMIONID, Sanjoaquin); db.insert(Ruta.TABLE_NAME, null, contentValues);
+        contentValues = new ContentValues(); contentValues.put(Ruta.COLUMN_LATITUD, 19.245394851374); contentValues.put(Ruta.COLUMN_LONGITUD, -103.74773472548); contentValues.put(Ruta.COLUMN_FK_CAMIONID, Sanjoaquin); db.insert(Ruta.TABLE_NAME, null, contentValues);
+        contentValues = new ContentValues(); contentValues.put(Ruta.COLUMN_LATITUD, 19.246635681106); contentValues.put(Ruta.COLUMN_LONGITUD, -103.74719560146); contentValues.put(Ruta.COLUMN_FK_CAMIONID, Sanjoaquin); db.insert(Ruta.TABLE_NAME, null, contentValues);
+        contentValues = new ContentValues(); contentValues.put(Ruta.COLUMN_LATITUD, 19.249519940903); contentValues.put(Ruta.COLUMN_LONGITUD, -103.74607980251); contentValues.put(Ruta.COLUMN_FK_CAMIONID, Sanjoaquin); db.insert(Ruta.TABLE_NAME, null, contentValues);
+        contentValues = new ContentValues(); contentValues.put(Ruta.COLUMN_LATITUD, 19.251186153924); contentValues.put(Ruta.COLUMN_LONGITUD, -103.74549508095); contentValues.put(Ruta.COLUMN_FK_CAMIONID, Sanjoaquin); db.insert(Ruta.TABLE_NAME, null, contentValues);
+        contentValues = new ContentValues(); contentValues.put(Ruta.COLUMN_LATITUD, 19.254214667994); contentValues.put(Ruta.COLUMN_LONGITUD, -103.74453485012); contentValues.put(Ruta.COLUMN_FK_CAMIONID, Sanjoaquin); db.insert(Ruta.TABLE_NAME, null, contentValues);
+        contentValues = new ContentValues(); contentValues.put(Ruta.COLUMN_LATITUD, 19.256270784476); contentValues.put(Ruta.COLUMN_LONGITUD, -103.74385893345); contentValues.put(Ruta.COLUMN_FK_CAMIONID, Sanjoaquin); db.insert(Ruta.TABLE_NAME, null, contentValues);
+        contentValues = new ContentValues(); contentValues.put(Ruta.COLUMN_LATITUD, 19.257617881298); contentValues.put(Ruta.COLUMN_LONGITUD, -103.74339222908); contentValues.put(Ruta.COLUMN_FK_CAMIONID, Sanjoaquin); db.insert(Ruta.TABLE_NAME, null, contentValues);
+        contentValues = new ContentValues(); contentValues.put(Ruta.COLUMN_LATITUD, 19.258802912212); contentValues.put(Ruta.COLUMN_LONGITUD, -103.74285578728); contentValues.put(Ruta.COLUMN_FK_CAMIONID, Sanjoaquin); db.insert(Ruta.TABLE_NAME, null, contentValues);
+        contentValues = new ContentValues(); contentValues.put(Ruta.COLUMN_LATITUD, 19.259795495617); contentValues.put(Ruta.COLUMN_LONGITUD, -103.7422978878); contentValues.put(Ruta.COLUMN_FK_CAMIONID, Sanjoaquin); db.insert(Ruta.TABLE_NAME, null, contentValues);
+        contentValues = new ContentValues(); contentValues.put(Ruta.COLUMN_LATITUD, 19.264722874288); contentValues.put(Ruta.COLUMN_LONGITUD, -103.7397390604); contentValues.put(Ruta.COLUMN_FK_CAMIONID, Sanjoaquin); db.insert(Ruta.TABLE_NAME, null, contentValues);
+        contentValues = new ContentValues(); contentValues.put(Ruta.COLUMN_LATITUD, 19.266140797544); contentValues.put(Ruta.COLUMN_LONGITUD, -103.73900949955); contentValues.put(Ruta.COLUMN_FK_CAMIONID, Sanjoaquin); db.insert(Ruta.TABLE_NAME, null, contentValues);
+        contentValues = new ContentValues(); contentValues.put(Ruta.COLUMN_LATITUD, 19.267665051366); contentValues.put(Ruta.COLUMN_LONGITUD, -103.7382799387); contentValues.put(Ruta.COLUMN_FK_CAMIONID, Sanjoaquin); db.insert(Ruta.TABLE_NAME, null, contentValues);
+        contentValues = new ContentValues(); contentValues.put(Ruta.COLUMN_LATITUD, 19.268703156319); contentValues.put(Ruta.COLUMN_LONGITUD, -103.73809218407); contentValues.put(Ruta.COLUMN_FK_CAMIONID, Sanjoaquin); db.insert(Ruta.TABLE_NAME, null, contentValues);
+        contentValues = new ContentValues(); contentValues.put(Ruta.COLUMN_LATITUD, 19.269893170982); contentValues.put(Ruta.COLUMN_LONGITUD, -103.73809218407); contentValues.put(Ruta.COLUMN_FK_CAMIONID, Sanjoaquin); db.insert(Ruta.TABLE_NAME, null, contentValues);
+        contentValues = new ContentValues(); contentValues.put(Ruta.COLUMN_LATITUD, 19.270814793422); contentValues.put(Ruta.COLUMN_LONGITUD, -103.73826384544); contentValues.put(Ruta.COLUMN_FK_CAMIONID, Sanjoaquin); db.insert(Ruta.TABLE_NAME, null, contentValues);
+        contentValues = new ContentValues(); contentValues.put(Ruta.COLUMN_LATITUD, 19.272665618434); contentValues.put(Ruta.COLUMN_LONGITUD, -103.73900413513); contentValues.put(Ruta.COLUMN_FK_CAMIONID, Sanjoaquin); db.insert(Ruta.TABLE_NAME, null, contentValues);
+        contentValues = new ContentValues(); contentValues.put(Ruta.COLUMN_LATITUD, 19.273683436687); contentValues.put(Ruta.COLUMN_LONGITUD, -103.73949766159); contentValues.put(Ruta.COLUMN_FK_CAMIONID, Sanjoaquin); db.insert(Ruta.TABLE_NAME, null, contentValues);
+        contentValues = new ContentValues(); contentValues.put(Ruta.COLUMN_LATITUD, 19.273820158061); contentValues.put(Ruta.COLUMN_LONGITUD, -103.73944669962); contentValues.put(Ruta.COLUMN_FK_CAMIONID, Sanjoaquin); db.insert(Ruta.TABLE_NAME, null, contentValues);
+        contentValues = new ContentValues(); contentValues.put(Ruta.COLUMN_LATITUD, 19.273992325553); contentValues.put(Ruta.COLUMN_LONGITUD, -103.73949766159); contentValues.put(Ruta.COLUMN_FK_CAMIONID, Sanjoaquin); db.insert(Ruta.TABLE_NAME, null, contentValues);
+        contentValues = new ContentValues(); contentValues.put(Ruta.COLUMN_LATITUD, 19.274055622379); contentValues.put(Ruta.COLUMN_LONGITUD, -103.73964518309); contentValues.put(Ruta.COLUMN_FK_CAMIONID, Sanjoaquin); db.insert(Ruta.TABLE_NAME, null, contentValues);
+        contentValues = new ContentValues(); contentValues.put(Ruta.COLUMN_LATITUD, 19.274212598405); contentValues.put(Ruta.COLUMN_LONGITUD, -103.73975247145); contentValues.put(Ruta.COLUMN_FK_CAMIONID, Sanjoaquin); db.insert(Ruta.TABLE_NAME, null, contentValues);
+        contentValues = new ContentValues(); contentValues.put(Ruta.COLUMN_LATITUD, 19.275103814277); contentValues.put(Ruta.COLUMN_LONGITUD, -103.74018162489); contentValues.put(Ruta.COLUMN_FK_CAMIONID, Sanjoaquin); db.insert(Ruta.TABLE_NAME, null, contentValues);
+        contentValues = new ContentValues(); contentValues.put(Ruta.COLUMN_LATITUD, 19.27695712267); contentValues.put(Ruta.COLUMN_LONGITUD, -103.74105066061); contentValues.put(Ruta.COLUMN_FK_CAMIONID, Sanjoaquin); db.insert(Ruta.TABLE_NAME, null, contentValues);
+        contentValues = new ContentValues(); contentValues.put(Ruta.COLUMN_LATITUD, 19.278387599102); contentValues.put(Ruta.COLUMN_LONGITUD, -103.74168366194); contentValues.put(Ruta.COLUMN_FK_CAMIONID, Sanjoaquin); db.insert(Ruta.TABLE_NAME, null, contentValues);
+        contentValues = new ContentValues(); contentValues.put(Ruta.COLUMN_LATITUD, 19.280025669159); contentValues.put(Ruta.COLUMN_LONGITUD, -103.74244004488); contentValues.put(Ruta.COLUMN_FK_CAMIONID, Sanjoaquin); db.insert(Ruta.TABLE_NAME, null, contentValues);
+        contentValues = new ContentValues(); contentValues.put(Ruta.COLUMN_LATITUD, 19.281519412737); contentValues.put(Ruta.COLUMN_LONGITUD, -103.74310255051); contentValues.put(Ruta.COLUMN_FK_CAMIONID, Sanjoaquin); db.insert(Ruta.TABLE_NAME, null, contentValues);
+        contentValues = new ContentValues(); contentValues.put(Ruta.COLUMN_LATITUD, 19.282866302044); contentValues.put(Ruta.COLUMN_LONGITUD, -103.74377846718); contentValues.put(Ruta.COLUMN_FK_CAMIONID, Sanjoaquin); db.insert(Ruta.TABLE_NAME, null, contentValues);
+        contentValues = new ContentValues(); contentValues.put(Ruta.COLUMN_LATITUD, 19.283468854201); contentValues.put(Ruta.COLUMN_LONGITUD, -103.74401718378); contentValues.put(Ruta.COLUMN_FK_CAMIONID, Sanjoaquin); db.insert(Ruta.TABLE_NAME, null, contentValues);
+        contentValues = new ContentValues(); contentValues.put(Ruta.COLUMN_LATITUD, 19.283856207988); contentValues.put(Ruta.COLUMN_LONGITUD, -103.7441405654); contentValues.put(Ruta.COLUMN_FK_CAMIONID, Sanjoaquin); db.insert(Ruta.TABLE_NAME, null, contentValues);
+        contentValues = new ContentValues(); contentValues.put(Ruta.COLUMN_LATITUD, 19.283985325714); contentValues.put(Ruta.COLUMN_LONGITUD, -103.74407351017); contentValues.put(Ruta.COLUMN_FK_CAMIONID, Sanjoaquin); db.insert(Ruta.TABLE_NAME, null, contentValues);
+        contentValues = new ContentValues(); contentValues.put(Ruta.COLUMN_LATITUD, 19.284291663439); contentValues.put(Ruta.COLUMN_LONGITUD, -103.74312132597); contentValues.put(Ruta.COLUMN_FK_CAMIONID, Sanjoaquin); db.insert(Ruta.TABLE_NAME, null, contentValues);
+        contentValues = new ContentValues(); contentValues.put(Ruta.COLUMN_LATITUD, 19.284620785977); contentValues.put(Ruta.COLUMN_LONGITUD, -103.74209135771); contentValues.put(Ruta.COLUMN_FK_CAMIONID, Sanjoaquin); db.insert(Ruta.TABLE_NAME, null, contentValues);
+        contentValues = new ContentValues(); contentValues.put(Ruta.COLUMN_LATITUD, 19.284957502965); contentValues.put(Ruta.COLUMN_LONGITUD, -103.74092459679); contentValues.put(Ruta.COLUMN_FK_CAMIONID, Sanjoaquin); db.insert(Ruta.TABLE_NAME, null, contentValues);
+        contentValues = new ContentValues(); contentValues.put(Ruta.COLUMN_LATITUD, 19.285079024716); contentValues.put(Ruta.COLUMN_LONGITUD, -103.74019503593); contentValues.put(Ruta.COLUMN_FK_CAMIONID, Sanjoaquin); db.insert(Ruta.TABLE_NAME, null, contentValues);
+        contentValues = new ContentValues(); contentValues.put(Ruta.COLUMN_LATITUD, 19.285114468543); contentValues.put(Ruta.COLUMN_LONGITUD, -103.73958349228); contentValues.put(Ruta.COLUMN_FK_CAMIONID, Sanjoaquin); db.insert(Ruta.TABLE_NAME, null, contentValues);
+        contentValues = new ContentValues(); contentValues.put(Ruta.COLUMN_LATITUD, 19.285046112584); contentValues.put(Ruta.COLUMN_LONGITUD, -103.73882710934); contentValues.put(Ruta.COLUMN_FK_CAMIONID, Sanjoaquin); db.insert(Ruta.TABLE_NAME, null, contentValues);
+        contentValues = new ContentValues(); contentValues.put(Ruta.COLUMN_LATITUD, 19.2849195274); contentValues.put(Ruta.COLUMN_LONGITUD, -103.73818606138); contentValues.put(Ruta.COLUMN_FK_CAMIONID, Sanjoaquin); db.insert(Ruta.TABLE_NAME, null, contentValues);
+        contentValues = new ContentValues(); contentValues.put(Ruta.COLUMN_LATITUD, 19.284630912814); contentValues.put(Ruta.COLUMN_LONGITUD, -103.73737335205); contentValues.put(Ruta.COLUMN_FK_CAMIONID, Sanjoaquin); db.insert(Ruta.TABLE_NAME, null, contentValues);
+        contentValues = new ContentValues(); contentValues.put(Ruta.COLUMN_LATITUD, 19.283443536928); contentValues.put(Ruta.COLUMN_LONGITUD, -103.73495668173); contentValues.put(Ruta.COLUMN_FK_CAMIONID, Sanjoaquin); db.insert(Ruta.TABLE_NAME, null, contentValues);
+        contentValues = new ContentValues(); contentValues.put(Ruta.COLUMN_LATITUD, 19.282638445609); contentValues.put(Ruta.COLUMN_LONGITUD, -103.73334467411); contentValues.put(Ruta.COLUMN_FK_CAMIONID, Sanjoaquin); db.insert(Ruta.TABLE_NAME, null, contentValues);
+        contentValues = new ContentValues(); contentValues.put(Ruta.COLUMN_LATITUD, 19.282478945916); contentValues.put(Ruta.COLUMN_LONGITUD, -103.73296648264); contentValues.put(Ruta.COLUMN_FK_CAMIONID, Sanjoaquin); db.insert(Ruta.TABLE_NAME, null, contentValues);
+        contentValues = new ContentValues(); contentValues.put(Ruta.COLUMN_LATITUD, 19.282349827003); contentValues.put(Ruta.COLUMN_LONGITUD, -103.73233884573); contentValues.put(Ruta.COLUMN_FK_CAMIONID, Sanjoaquin); db.insert(Ruta.TABLE_NAME, null, contentValues);
+        contentValues = new ContentValues(); contentValues.put(Ruta.COLUMN_LATITUD, 19.282304255597); contentValues.put(Ruta.COLUMN_LONGITUD, -103.73210549355); contentValues.put(Ruta.COLUMN_FK_CAMIONID, Sanjoaquin); db.insert(Ruta.TABLE_NAME, null, contentValues);
+        contentValues = new ContentValues(); contentValues.put(Ruta.COLUMN_LATITUD, 19.282147287325); contentValues.put(Ruta.COLUMN_LONGITUD, -103.7316441536); contentValues.put(Ruta.COLUMN_FK_CAMIONID, Sanjoaquin); db.insert(Ruta.TABLE_NAME, null, contentValues);
+        contentValues = new ContentValues(); contentValues.put(Ruta.COLUMN_LATITUD, 19.281800437548); contentValues.put(Ruta.COLUMN_LONGITUD, -103.73089045286); contentValues.put(Ruta.COLUMN_FK_CAMIONID, Sanjoaquin); db.insert(Ruta.TABLE_NAME, null, contentValues);
+        contentValues = new ContentValues(); contentValues.put(Ruta.COLUMN_LATITUD, 19.281005465213); contentValues.put(Ruta.COLUMN_LONGITUD, -103.72932136059); contentValues.put(Ruta.COLUMN_FK_CAMIONID, Sanjoaquin); db.insert(Ruta.TABLE_NAME, null, contentValues);
+        contentValues = new ContentValues(); contentValues.put(Ruta.COLUMN_LATITUD, 19.27865597028); contentValues.put(Ruta.COLUMN_LONGITUD, -103.7244451046); contentValues.put(Ruta.COLUMN_FK_CAMIONID, Sanjoaquin); db.insert(Ruta.TABLE_NAME, null, contentValues);
+        contentValues = new ContentValues(); contentValues.put(Ruta.COLUMN_LATITUD, 19.273377079122); contentValues.put(Ruta.COLUMN_LONGITUD, -103.71371090412); contentValues.put(Ruta.COLUMN_FK_CAMIONID, Sanjoaquin); db.insert(Ruta.TABLE_NAME, null, contentValues);
+        contentValues = new ContentValues(); contentValues.put(Ruta.COLUMN_LATITUD, 19.273037806439); contentValues.put(Ruta.COLUMN_LONGITUD, -103.7130510807); contentValues.put(Ruta.COLUMN_FK_CAMIONID, Sanjoaquin); db.insert(Ruta.TABLE_NAME, null, contentValues);
+        contentValues = new ContentValues(); contentValues.put(Ruta.COLUMN_LATITUD, 19.271756665945); contentValues.put(Ruta.COLUMN_LONGITUD, -103.71050834656); contentValues.put(Ruta.COLUMN_FK_CAMIONID, Sanjoaquin); db.insert(Ruta.TABLE_NAME, null, contentValues);
+        contentValues = new ContentValues(); contentValues.put(Ruta.COLUMN_LATITUD, 19.271513602586); contentValues.put(Ruta.COLUMN_LONGITUD, -103.71022135019); contentValues.put(Ruta.COLUMN_FK_CAMIONID, Sanjoaquin); db.insert(Ruta.TABLE_NAME, null, contentValues);
+        contentValues = new ContentValues(); contentValues.put(Ruta.COLUMN_LATITUD, 19.271121155778); contentValues.put(Ruta.COLUMN_LONGITUD, -103.7095695734); contentValues.put(Ruta.COLUMN_FK_CAMIONID, Sanjoaquin); db.insert(Ruta.TABLE_NAME, null, contentValues);
+        contentValues = new ContentValues(); contentValues.put(Ruta.COLUMN_LATITUD, 19.270164088006); contentValues.put(Ruta.COLUMN_LONGITUD, -103.7075445056); contentValues.put(Ruta.COLUMN_FK_CAMIONID, Sanjoaquin); db.insert(Ruta.TABLE_NAME, null, contentValues);
+        contentValues = new ContentValues(); contentValues.put(Ruta.COLUMN_LATITUD, 19.269751382454); contentValues.put(Ruta.COLUMN_LONGITUD, -103.70672106743); contentValues.put(Ruta.COLUMN_FK_CAMIONID, Sanjoaquin); db.insert(Ruta.TABLE_NAME, null, contentValues);
+        contentValues = new ContentValues(); contentValues.put(Ruta.COLUMN_LATITUD, 19.268829754035); contentValues.put(Ruta.COLUMN_LONGITUD, -103.70484888554); contentValues.put(Ruta.COLUMN_FK_CAMIONID, Sanjoaquin); db.insert(Ruta.TABLE_NAME, null, contentValues);
+        contentValues = new ContentValues(); contentValues.put(Ruta.COLUMN_LATITUD, 19.26871328414); contentValues.put(Ruta.COLUMN_LONGITUD, -103.70422661305); contentValues.put(Ruta.COLUMN_FK_CAMIONID, Sanjoaquin); db.insert(Ruta.TABLE_NAME, null, contentValues);
+        contentValues = new ContentValues(); contentValues.put(Ruta.COLUMN_LATITUD, 19.267523260911); contentValues.put(Ruta.COLUMN_LONGITUD, -103.70181798935); contentValues.put(Ruta.COLUMN_FK_CAMIONID, Sanjoaquin); db.insert(Ruta.TABLE_NAME, null, contentValues);
+        contentValues = new ContentValues(); contentValues.put(Ruta.COLUMN_LATITUD, 19.265943301825); contentValues.put(Ruta.COLUMN_LONGITUD, -103.69862616062); contentValues.put(Ruta.COLUMN_FK_CAMIONID, Sanjoaquin); db.insert(Ruta.TABLE_NAME, null, contentValues);
+        contentValues = new ContentValues(); contentValues.put(Ruta.COLUMN_LATITUD, 19.265269788996); contentValues.put(Ruta.COLUMN_LONGITUD, -103.69725823402); contentValues.put(Ruta.COLUMN_FK_CAMIONID, Sanjoaquin); db.insert(Ruta.TABLE_NAME, null, contentValues);
+        contentValues = new ContentValues(); contentValues.put(Ruta.COLUMN_LATITUD, 19.264510184741); contentValues.put(Ruta.COLUMN_LONGITUD, -103.69623363018); contentValues.put(Ruta.COLUMN_FK_CAMIONID, Sanjoaquin); db.insert(Ruta.TABLE_NAME, null, contentValues);
+        contentValues = new ContentValues(); contentValues.put(Ruta.COLUMN_LATITUD, 19.261805965024); contentValues.put(Ruta.COLUMN_LONGITUD, -103.69300961494); contentValues.put(Ruta.COLUMN_FK_CAMIONID, Sanjoaquin); db.insert(Ruta.TABLE_NAME, null, contentValues);
+        contentValues = new ContentValues(); contentValues.put(Ruta.COLUMN_LATITUD, 19.259760046314); contentValues.put(Ruta.COLUMN_LONGITUD, -103.69073778391); contentValues.put(Ruta.COLUMN_FK_CAMIONID, Sanjoaquin); db.insert(Ruta.TABLE_NAME, null, contentValues);
+        contentValues = new ContentValues(); contentValues.put(Ruta.COLUMN_LATITUD, 19.259172599591); contentValues.put(Ruta.COLUMN_LONGITUD, -103.69001626968); contentValues.put(Ruta.COLUMN_FK_CAMIONID, Sanjoaquin); db.insert(Ruta.TABLE_NAME, null, contentValues);
+        contentValues = new ContentValues(); contentValues.put(Ruta.COLUMN_LATITUD, 19.258792783779); contentValues.put(Ruta.COLUMN_LONGITUD, -103.68969172239); contentValues.put(Ruta.COLUMN_FK_CAMIONID, Sanjoaquin); db.insert(Ruta.TABLE_NAME, null, contentValues);
+        contentValues = new ContentValues(); contentValues.put(Ruta.COLUMN_LATITUD, 19.258600343432); contentValues.put(Ruta.COLUMN_LONGITUD, -103.68955492973); contentValues.put(Ruta.COLUMN_FK_CAMIONID, Sanjoaquin); db.insert(Ruta.TABLE_NAME, null, contentValues);
+        contentValues = new ContentValues(); contentValues.put(Ruta.COLUMN_LATITUD, 19.258382581713); contentValues.put(Ruta.COLUMN_LONGITUD, -103.68945032358); contentValues.put(Ruta.COLUMN_FK_CAMIONID, Sanjoaquin); db.insert(Ruta.TABLE_NAME, null, contentValues);
+        contentValues = new ContentValues(); contentValues.put(Ruta.COLUMN_LATITUD, 19.255306033524); contentValues.put(Ruta.COLUMN_LONGITUD, -103.68722140789); contentValues.put(Ruta.COLUMN_FK_CAMIONID, Sanjoaquin); db.insert(Ruta.TABLE_NAME, null, contentValues);
+        contentValues = new ContentValues(); contentValues.put(Ruta.COLUMN_LATITUD, 19.255088267432); contentValues.put(Ruta.COLUMN_LONGITUD, -103.68741720915); contentValues.put(Ruta.COLUMN_FK_CAMIONID, Sanjoaquin); db.insert(Ruta.TABLE_NAME, null, contentValues);
+        contentValues = new ContentValues(); contentValues.put(Ruta.COLUMN_LATITUD, 19.253903209678); contentValues.put(Ruta.COLUMN_LONGITUD, -103.68902117014); contentValues.put(Ruta.COLUMN_FK_CAMIONID, Sanjoaquin); db.insert(Ruta.TABLE_NAME, null, contentValues);
+        contentValues = new ContentValues(); contentValues.put(Ruta.COLUMN_LATITUD, 19.25548328478); contentValues.put(Ruta.COLUMN_LONGITUD, -103.69021743536); contentValues.put(Ruta.COLUMN_FK_CAMIONID, Sanjoaquin); db.insert(Ruta.TABLE_NAME, null, contentValues);
+        contentValues = new ContentValues(); contentValues.put(Ruta.COLUMN_LATITUD, 19.257263383207); contentValues.put(Ruta.COLUMN_LONGITUD, -103.69156122208); contentValues.put(Ruta.COLUMN_FK_CAMIONID, Sanjoaquin); db.insert(Ruta.TABLE_NAME, null, contentValues);
+        contentValues = new ContentValues(); contentValues.put(Ruta.COLUMN_LATITUD, 19.258435756114); contentValues.put(Ruta.COLUMN_LONGITUD, -103.68982315064); contentValues.put(Ruta.COLUMN_FK_CAMIONID, Sanjoaquin); db.insert(Ruta.TABLE_NAME, null, contentValues);
+        contentValues = new ContentValues(); contentValues.put(Ruta.COLUMN_LATITUD, 19.25858008654); contentValues.put(Ruta.COLUMN_LONGITUD, -103.68964880705); contentValues.put(Ruta.COLUMN_FK_CAMIONID, Sanjoaquin); db.insert(Ruta.TABLE_NAME, null, contentValues);
+        contentValues = new ContentValues(); contentValues.put(Ruta.COLUMN_LATITUD, 19.258623132431); contentValues.put(Ruta.COLUMN_LONGITUD, -103.68948251009); contentValues.put(Ruta.COLUMN_FK_CAMIONID, Sanjoaquin); db.insert(Ruta.TABLE_NAME, null, contentValues);
+        contentValues = new ContentValues(); contentValues.put(Ruta.COLUMN_LATITUD, 19.258830765399); contentValues.put(Ruta.COLUMN_LONGITUD, -103.68920624256); contentValues.put(Ruta.COLUMN_FK_CAMIONID, Sanjoaquin); db.insert(Ruta.TABLE_NAME, null, contentValues);
+        contentValues = new ContentValues(); contentValues.put(Ruta.COLUMN_LATITUD, 19.259043462313); contentValues.put(Ruta.COLUMN_LONGITUD, -103.68896216154); contentValues.put(Ruta.COLUMN_FK_CAMIONID, Sanjoaquin); db.insert(Ruta.TABLE_NAME, null, contentValues);
+        contentValues = new ContentValues(); contentValues.put(Ruta.COLUMN_LATITUD, 19.259256158951); contentValues.put(Ruta.COLUMN_LONGITUD, -103.6886832118); contentValues.put(Ruta.COLUMN_FK_CAMIONID, Sanjoaquin); db.insert(Ruta.TABLE_NAME, null, contentValues);
+        contentValues = new ContentValues(); contentValues.put(Ruta.COLUMN_LATITUD, 19.259519497264); contentValues.put(Ruta.COLUMN_LONGITUD, -103.68822455406); contentValues.put(Ruta.COLUMN_FK_CAMIONID, Sanjoaquin); db.insert(Ruta.TABLE_NAME, null, contentValues);
+        contentValues = new ContentValues(); contentValues.put(Ruta.COLUMN_LATITUD, 19.260076557684); contentValues.put(Ruta.COLUMN_LONGITUD, -103.6873742938); contentValues.put(Ruta.COLUMN_FK_CAMIONID, Sanjoaquin); db.insert(Ruta.TABLE_NAME, null, contentValues);
+        contentValues = new ContentValues(); contentValues.put(Ruta.COLUMN_LATITUD, 19.262808658436); contentValues.put(Ruta.COLUMN_LONGITUD, -103.68348777294); contentValues.put(Ruta.COLUMN_FK_CAMIONID, Sanjoaquin); db.insert(Ruta.TABLE_NAME, null, contentValues);
+        contentValues = new ContentValues(); contentValues.put(Ruta.COLUMN_LATITUD, 19.263710064453); contentValues.put(Ruta.COLUMN_LONGITUD, -103.68223249912); contentValues.put(Ruta.COLUMN_FK_CAMIONID, Sanjoaquin); db.insert(Ruta.TABLE_NAME, null, contentValues);
+        contentValues = new ContentValues(); contentValues.put(Ruta.COLUMN_LATITUD, 19.264570953211); contentValues.put(Ruta.COLUMN_LONGITUD, -103.68125617504); contentValues.put(Ruta.COLUMN_FK_CAMIONID, Sanjoaquin); db.insert(Ruta.TABLE_NAME, null, contentValues);
+        contentValues = new ContentValues(); contentValues.put(Ruta.COLUMN_LATITUD, 19.265766061876); contentValues.put(Ruta.COLUMN_LONGITUD, -103.68010818958); contentValues.put(Ruta.COLUMN_FK_CAMIONID, Sanjoaquin); db.insert(Ruta.TABLE_NAME, null, contentValues);
+        contentValues = new ContentValues(); contentValues.put(Ruta.COLUMN_LATITUD, 19.266186373445); contentValues.put(Ruta.COLUMN_LONGITUD, -103.67958247662); contentValues.put(Ruta.COLUMN_FK_CAMIONID, Sanjoaquin); db.insert(Ruta.TABLE_NAME, null, contentValues);
+        contentValues = new ContentValues(); contentValues.put(Ruta.COLUMN_LATITUD, 19.266520596334); contentValues.put(Ruta.COLUMN_LONGITUD, -103.67921233177); contentValues.put(Ruta.COLUMN_FK_CAMIONID, Sanjoaquin); db.insert(Ruta.TABLE_NAME, null, contentValues);
+        contentValues = new ContentValues(); contentValues.put(Ruta.COLUMN_LATITUD, 19.266925714073); contentValues.put(Ruta.COLUMN_LONGITUD, -103.67860078812); contentValues.put(Ruta.COLUMN_FK_CAMIONID, Sanjoaquin); db.insert(Ruta.TABLE_NAME, null, contentValues);
+        contentValues = new ContentValues(); contentValues.put(Ruta.COLUMN_LATITUD, 19.267604284043); contentValues.put(Ruta.COLUMN_LONGITUD, -103.67740988731); contentValues.put(Ruta.COLUMN_FK_CAMIONID, Sanjoaquin); db.insert(Ruta.TABLE_NAME, null, contentValues);
+        contentValues = new ContentValues(); contentValues.put(Ruta.COLUMN_LATITUD, 19.268490471937); contentValues.put(Ruta.COLUMN_LONGITUD, -103.67570400238); contentValues.put(Ruta.COLUMN_FK_CAMIONID, Sanjoaquin); db.insert(Ruta.TABLE_NAME, null, contentValues);
+        contentValues = new ContentValues(); contentValues.put(Ruta.COLUMN_LATITUD, 19.26877911496); contentValues.put(Ruta.COLUMN_LONGITUD, -103.67521584034); contentValues.put(Ruta.COLUMN_FK_CAMIONID, Sanjoaquin); db.insert(Ruta.TABLE_NAME, null, contentValues);
+        contentValues = new ContentValues(); contentValues.put(Ruta.COLUMN_LATITUD, 19.269331080027); contentValues.put(Ruta.COLUMN_LONGITUD, -103.67418587208); contentValues.put(Ruta.COLUMN_FK_CAMIONID, Sanjoaquin); db.insert(Ruta.TABLE_NAME, null, contentValues);
+        contentValues = new ContentValues(); contentValues.put(Ruta.COLUMN_LATITUD, 19.270095725809); contentValues.put(Ruta.COLUMN_LONGITUD, -103.67279112339); contentValues.put(Ruta.COLUMN_FK_CAMIONID, Sanjoaquin); db.insert(Ruta.TABLE_NAME, null, contentValues);
+        contentValues = new ContentValues(); contentValues.put(Ruta.COLUMN_LATITUD, 19.270875559555); contentValues.put(Ruta.COLUMN_LONGITUD, -103.67155194283); contentValues.put(Ruta.COLUMN_FK_CAMIONID, Sanjoaquin); db.insert(Ruta.TABLE_NAME, null, contentValues);
+        contentValues = new ContentValues(); contentValues.put(Ruta.COLUMN_LATITUD, 19.271209772881); contentValues.put(Ruta.COLUMN_LONGITUD, -103.67104768753); contentValues.put(Ruta.COLUMN_FK_CAMIONID, Sanjoaquin); db.insert(Ruta.TABLE_NAME, null, contentValues);
+        contentValues = new ContentValues(); contentValues.put(Ruta.COLUMN_LATITUD, 19.271566772726); contentValues.put(Ruta.COLUMN_LONGITUD, -103.67057025433); contentValues.put(Ruta.COLUMN_FK_CAMIONID, Sanjoaquin); db.insert(Ruta.TABLE_NAME, null, contentValues);
+        contentValues = new ContentValues(); contentValues.put(Ruta.COLUMN_LATITUD, 19.271859208191); contentValues.put(Ruta.COLUMN_LONGITUD, -103.67009416223); contentValues.put(Ruta.COLUMN_FK_CAMIONID, Sanjoaquin); db.insert(Ruta.TABLE_NAME, null, contentValues);
+        contentValues = new ContentValues(); contentValues.put(Ruta.COLUMN_LATITUD, 19.272046569166); contentValues.put(Ruta.COLUMN_LONGITUD, -103.66978302598); contentValues.put(Ruta.COLUMN_FK_CAMIONID, Sanjoaquin); db.insert(Ruta.TABLE_NAME, null, contentValues);
+
+
+        Puntos(db, Sanjoaquin);
+        Flechas( db,  Sanjoaquin);
+    }
+
+    public static void Puntos(SQLiteDatabase db, int Sanjoaquin) {
+
+
+        Puntos.SanJoaquin(db,Sanjoaquin);
+        Puntos.Trapiche(db, Sanjoaquin);
+        Puntos.FacultadDerecho(db, Sanjoaquin);
+        Puntos.ComplejoAdministrativo(db,Sanjoaquin);
+        Puntos.HospitalRegional(db,Sanjoaquin);
+        Puntos.Zentralia(db,Sanjoaquin);
+        Puntos.ExHacienda(db,Sanjoaquin);
+        Puntos.GlorietaPerritos(db,Sanjoaquin);
+        Puntos.GlorietaDiosaAgua(db,Sanjoaquin);
+        Puntos.Soriana(db,Sanjoaquin);
+        Puntos.Aurrera(db,Sanjoaquin);
+        Puntos.LaLechera(db,Sanjoaquin);
+        Puntos.LosRojos(db,Sanjoaquin);
+        Puntos.CasaCulturaVilla(db,Sanjoaquin);
+        Puntos.Esmeralda(db,Sanjoaquin);
+
+    }
+
+    public static void Flechas(SQLiteDatabase db, int Sanjoaquin) {
+
+        ContentValues contentValues = new ContentValues();
+        contentValues.put(DBContract.Flecha.COLUMN_LATITUD_INICIO,19.276595);
+        contentValues.put(DBContract.Flecha.COLUMN_LONGITUD_INICIO, -103.648593);
+        contentValues.put(DBContract.Flecha.COLUMN_LATITUD_FIN,19.276530);
+        contentValues.put(DBContract.Flecha.COLUMN_LONGITUD_FIN, -103.648610);
+        contentValues.put(DBContract.Flecha.COLUMN_SENTIDO, 2);
+        contentValues.put(DBContract.Flecha.COLUMN_FK_CAMIONID, Sanjoaquin);
+        db.insert(DBContract.Flecha.TABLE_NAME, null, contentValues);
+
+        contentValues = new ContentValues();
+        contentValues.put(DBContract.Flecha.COLUMN_LATITUD_INICIO,19.269194);
+        contentValues.put(DBContract.Flecha.COLUMN_LONGITUD_INICIO,-103.674873);
+        contentValues.put(DBContract.Flecha.COLUMN_LATITUD_FIN,19.268938);
+        contentValues.put(DBContract.Flecha.COLUMN_LONGITUD_FIN, -103.675388);
+        contentValues.put(DBContract.Flecha.COLUMN_SENTIDO, 2);
+        contentValues.put(DBContract.Flecha.COLUMN_FK_CAMIONID, Sanjoaquin);
+        db.insert(DBContract.Flecha.TABLE_NAME, null, contentValues);
+
+        contentValues = new ContentValues();
+        contentValues.put(DBContract.Flecha.COLUMN_LATITUD_INICIO,19.256998);
+        contentValues.put(DBContract.Flecha.COLUMN_LONGITUD_INICIO,-103.688421);
+        contentValues.put(DBContract.Flecha.COLUMN_LATITUD_FIN,19.256791);
+        contentValues.put(DBContract.Flecha.COLUMN_LONGITUD_FIN,-103.688232);
+        contentValues.put(DBContract.Flecha.COLUMN_SENTIDO, 1);
+        contentValues.put(DBContract.Flecha.COLUMN_FK_CAMIONID, Sanjoaquin);
+        db.insert(DBContract.Flecha.TABLE_NAME, null, contentValues);
+
+        contentValues = new ContentValues();
+        contentValues.put(DBContract.Flecha.COLUMN_LATITUD_INICIO,19.266528);
+        contentValues.put(DBContract.Flecha.COLUMN_LONGITUD_INICIO,-103.699163);
+        contentValues.put(DBContract.Flecha.COLUMN_LATITUD_FIN,19.266705);
+        contentValues.put(DBContract.Flecha.COLUMN_LONGITUD_FIN,-103.699542);
+        contentValues.put(DBContract.Flecha.COLUMN_SENTIDO, 2);
+        contentValues.put(DBContract.Flecha.COLUMN_FK_CAMIONID, Sanjoaquin);
+        db.insert(DBContract.Flecha.TABLE_NAME, null, contentValues);
+
+        contentValues = new ContentValues();
+        contentValues.put(DBContract.Flecha.COLUMN_LATITUD_INICIO,19.283586);
+        contentValues.put(DBContract.Flecha.COLUMN_LONGITUD_INICIO,-103.734894);
+        contentValues.put(DBContract.Flecha.COLUMN_LATITUD_FIN,19.283933);
+        contentValues.put(DBContract.Flecha.COLUMN_LONGITUD_FIN,-103.735628);
+        contentValues.put(DBContract.Flecha.COLUMN_SENTIDO, 2);
+        contentValues.put(DBContract.Flecha.COLUMN_FK_CAMIONID, Sanjoaquin);
+        db.insert(DBContract.Flecha.TABLE_NAME, null, contentValues);
+
+        contentValues = new ContentValues();
+        contentValues.put(DBContract.Flecha.COLUMN_LATITUD_INICIO,19.265005);
+        contentValues.put(DBContract.Flecha.COLUMN_LONGITUD_INICIO,-103.739812);
+        contentValues.put(DBContract.Flecha.COLUMN_LATITUD_FIN,19.264672);
+        contentValues.put(DBContract.Flecha.COLUMN_LONGITUD_FIN, -103.739989);
+        contentValues.put(DBContract.Flecha.COLUMN_SENTIDO, 2);
+        contentValues.put(DBContract.Flecha.COLUMN_FK_CAMIONID, Sanjoaquin);
+        db.insert(DBContract.Flecha.TABLE_NAME, null, contentValues);
+
+        contentValues = new ContentValues();
+        contentValues.put(DBContract.Flecha.COLUMN_LATITUD_INICIO,19.244181);
+        contentValues.put(DBContract.Flecha.COLUMN_LONGITUD_INICIO,-103.742388);
+        contentValues.put(DBContract.Flecha.COLUMN_LATITUD_FIN,19.244318);
+        contentValues.put(DBContract.Flecha.COLUMN_LONGITUD_FIN, -103.742408);
+        contentValues.put(DBContract.Flecha.COLUMN_SENTIDO, 2);
+        contentValues.put(DBContract.Flecha.COLUMN_FK_CAMIONID, Sanjoaquin);
+        db.insert(DBContract.Flecha.TABLE_NAME, null, contentValues);
+
+    }
+
+    }

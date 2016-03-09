@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">RutasColima</string>
+    <string name="title_activity_maps">Map</string>
+
+    <string name="drawer_open">Abrir navigation drawer</string>
+    <string name="drawer_close">Cerrar navigation drawer</string>
+
+    <string name="banner_ad_unit_id">ca-app-pub-3940256099942544/6300978111</string>
+<!--    debug-->
+    <!--<string name="banner_ad_unit_id">ca-app-pub-8498328908323038/6194639705</string> release-->
+
+    <string name="compartir">Compartir</string>
+
+    <string-array name="listRadio">
+        <item>250 m.</item>
+        <item>500 m.</item>
+        <item>750 m.</item>
+        <item>1 Km.</item>
+    </string-array>
+
+    <string-array name="listRadioValues">
+        <item>250</item>
+        <item>500</item>
+        <item>750</item>
+        <item>1000</item>
+    </string-array>
+    <string name="title_activity_preferences">Preferences</string>
+
+</resources>

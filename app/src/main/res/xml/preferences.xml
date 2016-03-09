@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+
+    >
+    <ListPreference     android:title="Radio"
+        android:summary="Distancia para buscar rutas cercanas desde tu posición"
+        android:key="distancia"
+        android:defaultValue="250"
+        android:entries="@array/listRadio"
+        android:entryValues="@array/listRadioValues" />
+</PreferenceScreen>

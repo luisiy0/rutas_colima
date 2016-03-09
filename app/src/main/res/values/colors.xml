@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#F44336</color>
+    <color name="colorPrimaryDark">#D32F2F</color>
+    <color name="colorAccent">#FF8A80</color>
+    <color name="colorBlueGray">#607D8B</color><!--500-->
+    <color name="colorBlueGray600">#546E7A</color><!--600-->
+    <color name="colorBlanco">#FFFFFF</color>
+    <color name="verde">#66BB6A</color> <!--400-->
+    <color name="fondoSplash">#FABC3D</color>
+
+
+</resources>
