@@ -914,11 +914,12 @@ public class Ruta10 {
         contentValues.put(DBContract.Flecha.COLUMN_FK_CAMIONID, Ruta10);
         db.insert(DBContract.Flecha.TABLE_NAME, null, contentValues);
 
+
         contentValues = new ContentValues();
         contentValues.put(DBContract.Flecha.COLUMN_LATITUD_INICIO, 19.252344);
         contentValues.put(DBContract.Flecha.COLUMN_LONGITUD_INICIO,-103.730750);
-        contentValues.put(DBContract.Flecha.COLUMN_LATITUD_FIN,19.252517);
-        contentValues.put(DBContract.Flecha.COLUMN_LONGITUD_FIN, -103.730676);
+        contentValues.put(DBContract.Flecha.COLUMN_LATITUD_FIN,19.252284);
+        contentValues.put(DBContract.Flecha.COLUMN_LONGITUD_FIN, -103.730815);
         contentValues.put(DBContract.Flecha.COLUMN_SENTIDO, 1);
         contentValues.put(DBContract.Flecha.COLUMN_FK_CAMIONID, Ruta10);
         db.insert(DBContract.Flecha.TABLE_NAME, null, contentValues);
