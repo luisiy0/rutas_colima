@@ -1031,20 +1031,22 @@ public class Ruta7 {
         contentValues.put(DBContract.Flecha.COLUMN_FK_CAMIONID, Ruta7);
         db.insert(DBContract.Flecha.TABLE_NAME, null, contentValues);
 
+
         contentValues = new ContentValues();
         contentValues.put(DBContract.Flecha.COLUMN_LATITUD_INICIO, 19.237941);
         contentValues.put(DBContract.Flecha.COLUMN_LONGITUD_INICIO,  -103.740857 );
-        contentValues.put(DBContract.Flecha.COLUMN_LATITUD_FIN,19.237891);
-        contentValues.put(DBContract.Flecha.COLUMN_LONGITUD_FIN, -103.740671);
+        contentValues.put(DBContract.Flecha.COLUMN_LATITUD_FIN,19.238072);
+        contentValues.put(DBContract.Flecha.COLUMN_LONGITUD_FIN, -103.740822);
         contentValues.put(DBContract.Flecha.COLUMN_SENTIDO, 1);
         contentValues.put(DBContract.Flecha.COLUMN_FK_CAMIONID, Ruta7);
         db.insert(DBContract.Flecha.TABLE_NAME, null, contentValues);
 
+        //revisar
         contentValues = new ContentValues();
         contentValues.put(DBContract.Flecha.COLUMN_LATITUD_INICIO, 19.234440);
         contentValues.put(DBContract.Flecha.COLUMN_LONGITUD_INICIO,  -103.742052 );
-        contentValues.put(DBContract.Flecha.COLUMN_LATITUD_FIN,19.234498);
-        contentValues.put(DBContract.Flecha.COLUMN_LONGITUD_FIN,-103.742260 );
+        contentValues.put(DBContract.Flecha.COLUMN_LATITUD_FIN,19.234394);
+        contentValues.put(DBContract.Flecha.COLUMN_LONGITUD_FIN,-103.742068);
         contentValues.put(DBContract.Flecha.COLUMN_SENTIDO, 1);
         contentValues.put(DBContract.Flecha.COLUMN_FK_CAMIONID, Ruta7);
         db.insert(DBContract.Flecha.TABLE_NAME, null, contentValues);
@@ -1067,11 +1069,12 @@ public class Ruta7 {
         contentValues.put(DBContract.Flecha.COLUMN_FK_CAMIONID, Ruta7);
         db.insert(DBContract.Flecha.TABLE_NAME, null, contentValues);
 
+
         contentValues = new ContentValues();
         contentValues.put(DBContract.Flecha.COLUMN_LATITUD_INICIO, 19.260453);
         contentValues.put(DBContract.Flecha.COLUMN_LONGITUD_INICIO,  -103.719177);
-        contentValues.put(DBContract.Flecha.COLUMN_LATITUD_FIN,19.260302);
-        contentValues.put(DBContract.Flecha.COLUMN_LONGITUD_FIN,  -103.719176);
+        contentValues.put(DBContract.Flecha.COLUMN_LATITUD_FIN,19.260457);
+        contentValues.put(DBContract.Flecha.COLUMN_LONGITUD_FIN,  -103.719014);
         contentValues.put(DBContract.Flecha.COLUMN_SENTIDO, 1);
         contentValues.put(DBContract.Flecha.COLUMN_FK_CAMIONID, Ruta7);
         db.insert(DBContract.Flecha.TABLE_NAME, null, contentValues);
