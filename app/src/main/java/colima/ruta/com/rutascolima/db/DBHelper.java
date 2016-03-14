@@ -57,7 +57,7 @@ import colima.ruta.com.rutascolima.utils.Utils;
 public class DBHelper extends SQLiteOpenHelper {
 
     public static final String DATABASE_NAME = "DBCamiones.db";
-    public static final int VERSION = 227;
+    public static final int VERSION = 230;
 
     private int ColimaId,ManzanilloId,TecomanId;
 
