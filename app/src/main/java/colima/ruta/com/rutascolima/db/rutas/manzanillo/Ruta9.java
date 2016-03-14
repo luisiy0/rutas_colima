@@ -615,8 +615,8 @@ public class Ruta9 {
         contentValues = new ContentValues();
         contentValues.put(DBContract.Flecha.COLUMN_LATITUD_INICIO,19.045631);
         contentValues.put(DBContract.Flecha.COLUMN_LONGITUD_INICIO,-104.318739);
-        contentValues.put(DBContract.Flecha.COLUMN_LATITUD_FIN,19.046378);
-        contentValues.put(DBContract.Flecha.COLUMN_LONGITUD_FIN,-104.318688);
+        contentValues.put(DBContract.Flecha.COLUMN_LATITUD_FIN,19.045641);
+        contentValues.put(DBContract.Flecha.COLUMN_LONGITUD_FIN,-104.318821);
         contentValues.put(DBContract.Flecha.COLUMN_SENTIDO, 1);
         contentValues.put(DBContract.Flecha.COLUMN_FK_CAMIONID, Ruta9);
         db.insert(DBContract.Flecha.TABLE_NAME, null, contentValues);
