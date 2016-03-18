@@ -370,6 +370,7 @@ public class Ruta5 {
         Puntos.CentralNueva(db, Ruta5);
         Puntos.AuditorioManuel(db,Ruta5);
 
+
     }
 
     private static void Flechas(SQLiteDatabase db,int Ruta5) {
@@ -463,6 +464,7 @@ public class Ruta5 {
         contentValues.put(DBContract.Flecha.COLUMN_FK_CAMIONID, Ruta5);
         db.insert(DBContract.Flecha.TABLE_NAME, null, contentValues);
     }
+
 
 
 

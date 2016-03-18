@@ -110,9 +110,18 @@ public class MapFragment extends Fragment  implements OnMapReadyCallback,
     @Override
     public void onMapReady(GoogleMap googleMap) {
         mMap = googleMap;
-        HashMap<String, Double> Punto = mydb.MunicipioPunto(getArguments().getString(Utils.MUNICIPIO));
+
+        HashMap<String, Double> Punto;
+
+        Punto =  mydb.RutaPuntoCentral(getArguments().getString(Utils.CAMION),getArguments().getString(Utils.MUNICIPIO));
+
+        if (Punto.get(DBContract.Municipio.COLUMN_LATITUD) == 0 ||
+                Punto.get(DBContract.Municipio.COLUMN_LONGITUD) == 0 ) {
+            Punto = mydb.MunicipioPunto(getArguments().getString(Utils.MUNICIPIO));
+        }
+
         //move the camera
-        LatLng sydney = new LatLng(Punto.get(DBContract.Municipio.COLUMN_LATITUD),Punto.get(DBContract.Municipio.COLUMN_LONGITUD));
+        LatLng sydney = new LatLng(Punto.get(DBContract.Municipio.COLUMN_LATITUD), Punto.get(DBContract.Municipio.COLUMN_LONGITUD));
         mMap.moveCamera(CameraUpdateFactory.newLatLngZoom(sydney, 13));
         PolylineOptions rectOptions = new PolylineOptions();
         //flecha

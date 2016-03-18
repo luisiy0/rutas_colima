@@ -23,6 +23,9 @@ public class DBContract {
 
         public static final String COLUMN_FK_MUNICIPIOID = "Municipio_Id";
 
+        public static final String COLUMN_LATITUD_CENTRAL = "Latitud"; // punto geo para poner centrado la ruta del camion en algunos casos
+        public static final String COLUMN_LONGITUD_CENTRAL = "Longitud";
+
     }
 
     public static final class Ruta implements BaseColumns {

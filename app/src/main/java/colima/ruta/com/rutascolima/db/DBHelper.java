@@ -57,7 +57,7 @@ import colima.ruta.com.rutascolima.utils.Utils;
 public class DBHelper extends SQLiteOpenHelper {
 
     public static final String DATABASE_NAME = "DBCamiones.db";
-    public static final int VERSION = 302;
+    public static final int VERSION = 309;
 
     private int ColimaId,ManzanilloId,TecomanId;
 
@@ -81,6 +81,8 @@ public class DBHelper extends SQLiteOpenHelper {
                 Camion.COLUMN_NOMBRE + " text NOT NULL , " +
                 Camion.COLUMN_ORDEN + " integer NOT NULL, "+
                 Camion.COLUMN_FK_MUNICIPIOID +" integer NOT NULL , " +
+                Camion.COLUMN_LATITUD_CENTRAL + " REAL NULL, "+
+                Camion.COLUMN_LONGITUD_CENTRAL + " REAL NULL, "+
                 " FOREIGN KEY (" + Camion.COLUMN_FK_MUNICIPIOID + ") REFERENCES " +
                 Municipio.TABLE_NAME + " (" + Municipio._ID + " ) ); "
                 ;
@@ -401,6 +403,9 @@ public class DBHelper extends SQLiteOpenHelper {
         contentValues.put(Camion.COLUMN_NOMBRE, Utils.RUTA5);
         contentValues.put(Camion.COLUMN_FK_MUNICIPIOID, ManzanilloId);
         contentValues.put(Camion.COLUMN_ORDEN, 5);
+        //punto central
+        contentValues.put(Camion.COLUMN_LATITUD_CENTRAL, 19.056501);
+        contentValues.put(Camion.COLUMN_LONGITUD_CENTRAL, -104.293562);
         CamionId = db.insert(Camion.TABLE_NAME, null, contentValues);
         colima.ruta.com.rutascolima.db.rutas.manzanillo.Ruta5.Ruta5(db, (int) CamionId);
 		
@@ -423,7 +428,7 @@ public class DBHelper extends SQLiteOpenHelper {
         contentValues.put(Camion.COLUMN_FK_MUNICIPIOID, ManzanilloId);
         contentValues.put(Camion.COLUMN_ORDEN, 8);
         CamionId = db.insert(Camion.TABLE_NAME, null, contentValues);
-        Ruta7A.Ruta7A(db,  (int) CamionId);
+        Ruta7A.Ruta7A(db, (int) CamionId);
 		
 		contentValues = new ContentValues();
         contentValues.put(Camion.COLUMN_NOMBRE, Utils.RUTA8);
@@ -436,6 +441,9 @@ public class DBHelper extends SQLiteOpenHelper {
         contentValues.put(Camion.COLUMN_NOMBRE, Utils.RUTA9);
         contentValues.put(Camion.COLUMN_FK_MUNICIPIOID, ManzanilloId);
         contentValues.put(Camion.COLUMN_ORDEN, 10);
+        //punto central
+        contentValues.put(Camion.COLUMN_LATITUD_CENTRAL, 19.036544);
+        contentValues.put(Camion.COLUMN_LONGITUD_CENTRAL, -104.291709);
         CamionId = db.insert(Camion.TABLE_NAME, null, contentValues);
         colima.ruta.com.rutascolima.db.rutas.manzanillo.Ruta9.Ruta9(db, (int) CamionId);
 
@@ -443,6 +451,9 @@ public class DBHelper extends SQLiteOpenHelper {
         contentValues.put(Camion.COLUMN_NOMBRE, Utils.RUTA10);
         contentValues.put(Camion.COLUMN_FK_MUNICIPIOID, ManzanilloId);
         contentValues.put(Camion.COLUMN_ORDEN, 11);
+        //punto central
+        contentValues.put(Camion.COLUMN_LATITUD_CENTRAL, 19.072107);
+        contentValues.put(Camion.COLUMN_LONGITUD_CENTRAL,-104.293176);
         CamionId = db.insert(Camion.TABLE_NAME, null, contentValues);
         colima.ruta.com.rutascolima.db.rutas.manzanillo.Ruta10.Ruta10(db, (int) CamionId);
 		
@@ -450,6 +461,9 @@ public class DBHelper extends SQLiteOpenHelper {
         contentValues.put(Camion.COLUMN_NOMBRE, Utils.RUTA10A);
         contentValues.put(Camion.COLUMN_FK_MUNICIPIOID, ManzanilloId);
         contentValues.put(Camion.COLUMN_ORDEN, 12);
+        //punto central
+        contentValues.put(Camion.COLUMN_LATITUD_CENTRAL, 19.072107);
+        contentValues.put(Camion.COLUMN_LONGITUD_CENTRAL,-104.293176);
         CamionId = db.insert(Camion.TABLE_NAME, null, contentValues);
         Ruta10A.Ruta10A(db, (int) CamionId);
 		
@@ -457,6 +471,9 @@ public class DBHelper extends SQLiteOpenHelper {
         contentValues.put(Camion.COLUMN_NOMBRE, Utils.RUTA11);
         contentValues.put(Camion.COLUMN_FK_MUNICIPIOID, ManzanilloId);
         contentValues.put(Camion.COLUMN_ORDEN, 13);
+        //punto central
+        contentValues.put(Camion.COLUMN_LATITUD_CENTRAL, 19.072107);
+        contentValues.put(Camion.COLUMN_LONGITUD_CENTRAL,-104.293176);
         CamionId = db.insert(Camion.TABLE_NAME, null, contentValues);
         colima.ruta.com.rutascolima.db.rutas.manzanillo.Ruta11.Ruta11(db, (int) CamionId);
 		
@@ -471,6 +488,9 @@ public class DBHelper extends SQLiteOpenHelper {
         contentValues.put(Camion.COLUMN_NOMBRE, Utils.RUTA13);
         contentValues.put(Camion.COLUMN_FK_MUNICIPIOID, ManzanilloId);
         contentValues.put(Camion.COLUMN_ORDEN, 15);
+        //punto central
+        contentValues.put(Camion.COLUMN_LATITUD_CENTRAL, 19.072107);
+        contentValues.put(Camion.COLUMN_LONGITUD_CENTRAL,-104.293176);
         CamionId = db.insert(Camion.TABLE_NAME, null, contentValues);
         colima.ruta.com.rutascolima.db.rutas.manzanillo.Ruta13.Ruta13(db, (int) CamionId);
 		
@@ -478,6 +498,9 @@ public class DBHelper extends SQLiteOpenHelper {
         contentValues.put(Camion.COLUMN_NOMBRE, Utils.RUTA14);
         contentValues.put(Camion.COLUMN_FK_MUNICIPIOID, ManzanilloId);
         contentValues.put(Camion.COLUMN_ORDEN, 16);
+        //punto central
+        contentValues.put(Camion.COLUMN_LATITUD_CENTRAL, 19.072107);
+        contentValues.put(Camion.COLUMN_LONGITUD_CENTRAL,-104.293176);
         CamionId = db.insert(Camion.TABLE_NAME, null, contentValues);
         colima.ruta.com.rutascolima.db.rutas.manzanillo.Ruta14.Ruta14(db, (int) CamionId);
 		
@@ -485,6 +508,9 @@ public class DBHelper extends SQLiteOpenHelper {
         contentValues.put(Camion.COLUMN_NOMBRE, Utils.RUTA15);
         contentValues.put(Camion.COLUMN_FK_MUNICIPIOID, ManzanilloId);
         contentValues.put(Camion.COLUMN_ORDEN, 17);
+        //punto central
+        contentValues.put(Camion.COLUMN_LATITUD_CENTRAL, 19.072107);
+        contentValues.put(Camion.COLUMN_LONGITUD_CENTRAL,-104.293176);
         CamionId = db.insert(Camion.TABLE_NAME, null, contentValues);
         Ruta15.Ruta15(db,  (int) CamionId);
 
@@ -629,6 +655,28 @@ public class DBHelper extends SQLiteOpenHelper {
 
 
         return Punto;
+    }
+
+    public HashMap<String, Double> RutaPuntoCentral(String Nombre, String MunicipioNombre){
+
+        HashMap<String, Double> Puntos = new HashMap<String, Double>();
+
+        SQLiteDatabase db = this.getReadableDatabase();
+        String query = "select " + Camion.TABLE_NAME + "." + Camion.COLUMN_LATITUD_CENTRAL + " , " +
+                Camion.TABLE_NAME + "."  + Camion.COLUMN_LONGITUD_CENTRAL +
+                " from " +  Camion.TABLE_NAME +
+                " INNER JOIN " + Municipio.TABLE_NAME +
+                " on " + Camion.TABLE_NAME + "." + Camion.COLUMN_FK_MUNICIPIOID + " = " + Municipio.TABLE_NAME +"." + Municipio._ID +
+                " where " + Camion.TABLE_NAME + "." + Camion.COLUMN_NOMBRE + " = '" +  Nombre + "' and " +
+                Municipio.TABLE_NAME +"." + Municipio.COLUMN_NOMBRE + " = '" +  MunicipioNombre + "'";
+        Cursor res =  db.rawQuery(query, null);
+
+        res.moveToFirst();
+        Puntos.put(Municipio.COLUMN_LATITUD, res.getDouble(res.getColumnIndex(Municipio.COLUMN_LATITUD)));
+        Puntos.put(Municipio.COLUMN_LONGITUD, res.getDouble(res.getColumnIndex(Municipio.COLUMN_LONGITUD)));
+
+
+        return Puntos;
     }
 
 
