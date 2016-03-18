@@ -122,50 +122,8 @@ public class MapFragment extends Fragment  implements OnMapReadyCallback,
                 getArguments().getString(Utils.MUNICIPIO));
         for(int j=0;j < Trazos.size();j++){
                 rectOptions.add(new LatLng( Trazos.get(j).get(DBContract.Ruta.COLUMN_LATITUD) , Trazos.get(j).get(DBContract.Ruta.COLUMN_LONGITUD))).width(5).color(getResources().getColor(R.color.verde));
-
-           /* if(j % 3 == 0 && j > 0 )
-            {
-                // First you need rotate the bitmap of the arrowhead somewhere in your code
-                Matrix matrix = new Matrix();
-                matrix.postRotate((float) Math.toDegrees(Math.atan2(Trazos.get(j - 1).get(DBContract.Ruta.COLUMN_LATITUD) - Trazos.get(j).get(DBContract.Ruta.COLUMN_LATITUD), Trazos.get(j - 1).get(DBContract.Ruta.COLUMN_LONGITUD) - Trazos.get(j).get(DBContract.Ruta.COLUMN_LONGITUD))));
-                // Create the rotated arrowhead bitmap
-
-
-
-                Bitmap arrowheadBitmap = Bitmap.createBitmap(BitmapFactory.decodeResource(getResources(), R.drawable.arrowup), 0, 0,  BitmapFactory.decodeResource(getResources(), R.drawable.arrowup).getWidth(), BitmapFactory.decodeResource(getResources(), R.drawable.arrowup).getHeight(), matrix, true);
-
-                BitmapDescriptor iconBitmap = BitmapDescriptorFactory
-                        .fromBitmap(arrowheadBitmap);
-
-                // Now we are gonna to add a marker
-                mMap.addMarker(new MarkerOptions()
-                        .position(new LatLng(Trazos.get(j).get(DBContract.Ruta.COLUMN_LATITUD), Trazos.get(j).get(DBContract.Ruta.COLUMN_LONGITUD)))
-                        .icon(iconBitmap)
-                        .anchor(0.5f, 0.5f));
-            }
-*/
         }
 
-        /*
-
-        // First you need rotate the bitmap of the arrowhead somewhere in your code
-        Matrix matrix = new Matrix();
-        matrix.postRotate((float) Math.toDegrees(Math.atan2(19.231446 - 19.231993, -103.705569 -  -103.706629)));
-        // Create the rotated arrowhead bitmap
-
-
-
-        Bitmap arrowheadBitmap = Bitmap.createBitmap(BitmapFactory.decodeResource(getResources(), R.drawable.arrowup), 0, 0,  BitmapFactory.decodeResource(getResources(), R.drawable.arrowup).getWidth(), BitmapFactory.decodeResource(getResources(), R.drawable.arrowup).getHeight(), matrix, true);
-
-        BitmapDescriptor iconBitmap = BitmapDescriptorFactory
-                .fromBitmap(arrowheadBitmap);
-
-        // Now we are gonna to add a marker
-        mMap.addMarker(new MarkerOptions()
-                .position(new LatLng(19.231446, -103.705569))
-                .icon(iconBitmap)
-                .anchor(0.5f, 0.5f));
-*/
         // Get back the mutable Polyline
         Polyline polyline = mMap.addPolyline(rectOptions);
 
@@ -191,16 +149,12 @@ public class MapFragment extends Fragment  implements OnMapReadyCallback,
             // Create the rotated arrowhead bitmap
 
 
-
-
             Bitmap arrowheadBitmap;
             if(Flechas.get(j).get(DBContract.Flecha.COLUMN_SENTIDO) == 1  ){
                  arrowheadBitmap = Bitmap.createBitmap(BitmapFactory.decodeResource(getResources(), R.drawable.arrowup), 0, 0,  BitmapFactory.decodeResource(getResources(), R.drawable.arrowup).getWidth(), BitmapFactory.decodeResource(getResources(), R.drawable.arrowup).getHeight(), matrix, true);
             }else{
                 arrowheadBitmap = Bitmap.createBitmap(BitmapFactory.decodeResource(getResources(), R.drawable.arrowdouble), 0, 0,  BitmapFactory.decodeResource(getResources(), R.drawable.arrowdouble).getWidth(), BitmapFactory.decodeResource(getResources(), R.drawable.arrowdouble).getHeight(), matrix, true);
             }
-
-
 
             BitmapDescriptor iconBitmap = BitmapDescriptorFactory
                     .fromBitmap(arrowheadBitmap);
@@ -212,8 +166,6 @@ public class MapFragment extends Fragment  implements OnMapReadyCallback,
                     .anchor(0.5f, 0.5f));
 
         }
-
-
 
 
         if (mLastLocation != null) {
