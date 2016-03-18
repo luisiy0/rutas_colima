@@ -5,9 +5,9 @@
     <string name="drawer_open">Abrir navigation drawer</string>
     <string name="drawer_close">Cerrar navigation drawer</string>
 
-    <string name="banner_ad_unit_id">ca-app-pub-3940256099942544/6300978111</string>
+   <string name="banner_ad_unit_id">ca-app-pub-3940256099942544/6300978111</string>
 <!--    debug-->
-    <!--<string name="banner_ad_unit_id">ca-app-pub-8498328908323038/6194639705</string> release-->
+  <!--  <string name="banner_ad_unit_id">ca-app-pub-8498328908323038/6194639705</string> release-->
 
     <string name="compartir">Compartir</string>
 
