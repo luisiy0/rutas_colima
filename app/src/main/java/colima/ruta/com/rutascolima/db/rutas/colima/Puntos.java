@@ -1206,5 +1206,29 @@ public class Puntos {
         db.insert(DBContract.Punto.TABLE_NAME, null, contentValues);
     }
 
+    public static void UnidaddelaVilla(SQLiteDatabase db,int RutaId) {
+        ContentValues contentValues = new ContentValues();
+
+        contentValues.put(Punto.COLUMN_NOMBRE, "Unidad Deportiva");
+        contentValues.put(Punto.COLUMN_LATITUD, 19.267709);
+        contentValues.put(Punto.COLUMN_LONGITUD,-103.741200);
+        contentValues.put(Punto.COLUMN_FK_CAMIONID, RutaId);
+        //contentValues.put(Punto.COLUMN_FK_PUNTO_SIGUIENTEID, RutaIA);
+        //contentValues.put(Punto.COLUMN_FK_PUNTO_ANTERIORID, RutaIA);
+        db.insert(DBContract.Punto.TABLE_NAME, null, contentValues);
+    }
+
+    public static void LaComarca(SQLiteDatabase db,int RutaId) {
+        ContentValues contentValues = new ContentValues();
+
+        contentValues.put(Punto.COLUMN_NOMBRE, "La Comarca");
+        contentValues.put(Punto.COLUMN_LATITUD, 19.279152);
+        contentValues.put(Punto.COLUMN_LONGITUD,-103.762605);
+        contentValues.put(Punto.COLUMN_FK_CAMIONID, RutaId);
+        //contentValues.put(Punto.COLUMN_FK_PUNTO_SIGUIENTEID, RutaIA);
+        //contentValues.put(Punto.COLUMN_FK_PUNTO_ANTERIORID, RutaIA);
+        db.insert(DBContract.Punto.TABLE_NAME, null, contentValues);
+    }
+
 
 }

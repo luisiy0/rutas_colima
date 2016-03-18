@@ -28,15 +28,11 @@ public class Ruta15 {
     public static void Puntos(SQLiteDatabase db,int Ruta15) {
 
 
-        Puntos.ExHacienda(db,Ruta15);
-        Puntos.UniversidadColima(db, Ruta15);
-        Puntos.HospitalRegional(db, Ruta15);
-        Puntos.Zentralia(db, Ruta15);
-        Puntos.Esmeralda(db, Ruta15);
-        Puntos.GlorietaDiosaAgua(db, Ruta15);
-        Puntos.Bachi4(db, Ruta15);
-        Puntos.RamonSerrano(db,Ruta15);
-
+       Puntos.JardinNunez(db, Ruta15);
+        Puntos.LosRojos(db, Ruta15);
+        Puntos.DianaCazadora(db, Ruta15);
+        Puntos.UnidaddelaVilla(db, Ruta15);
+        Puntos.LaComarca(db, Ruta15);
     }
 
     public static void Flechas(SQLiteDatabase db,int Ruta15) {
