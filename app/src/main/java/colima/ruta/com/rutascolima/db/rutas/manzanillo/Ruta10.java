@@ -562,8 +562,6 @@ public class Ruta10 {
 
 
         Puntos.ColoniaMiramar(db,Ruta10);
-        Puntos.Salahua(db, Ruta10);
-        Puntos.ComercialMexicana(db, Ruta10);
         Puntos.ColegioSanJon(db, Ruta10);
         Puntos.Barrio4(db, Ruta10);
         Puntos.Fondeport(db, Ruta10);
