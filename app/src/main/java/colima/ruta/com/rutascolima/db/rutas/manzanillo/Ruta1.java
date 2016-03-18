@@ -338,7 +338,12 @@ public class Ruta1 {
 
     private static void Puntos(SQLiteDatabase db,int Ruta1) {
         Puntos.EjidoCentral(db,Ruta1);
-        Puntos.UdeC(db,Ruta1);
+        Puntos.UdeC(db, Ruta1);
+        Puntos.ComercialMexicana(db, Ruta1);
+        Puntos.Fondeport(db, Ruta1);
+        Puntos.Tapeixtles(db, Ruta1);
+        Puntos.SanPedrito(db, Ruta1);
+        Puntos.ClinicaImss(db,Ruta1);
     }
 
     private static void Flechas(SQLiteDatabase db,int Ruta1){

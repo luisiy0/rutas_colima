@@ -512,7 +512,6 @@ public class Ruta6 {
 
         Puntos.Cereso(db,Ruta6);
         Puntos.ValleParaiso(db, Ruta6);
-        Puntos.ComercialMexicana(db, Ruta6);
         Puntos.Soriana(db, Ruta6);
         Puntos.IUBAM(db, Ruta6);
         Puntos.GlorietaSanPedrito(db, Ruta6);
